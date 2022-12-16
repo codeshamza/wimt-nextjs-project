@@ -14,7 +14,6 @@ const TeamPage = () => {
   let Tab2 =  document.getElementById("Tab2Items");
   let Tab3 =  document.getElementById("Tab3Items");
 
-  React.useEffect(()=>{
     setTimeout(()=>{
       let Tab1 =  document.getElementById("Tab1Items");
       let Tab2 =  document.getElementById("Tab2Items");
@@ -24,7 +23,6 @@ const TeamPage = () => {
       Tab3.style.display = "none";
     },100)
     
-  },[])
   const Tab1Function = () =>{
     setActiveTab(1)
    Tab1.style.display = "flex";
