@@ -27,6 +27,6 @@
       "@/cms/*": ["cms/*"],
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/layout/navbar.jsx", "src/components/home/works.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/layout/navbar.jsx", "src/components/home/works.jsx", "app/team/page.jsx"],
   "exclude": ["node_modules"]
 }

@@ -276,6 +276,7 @@
     align-items: center;
     margin-bottom: 50px;
     width: 100%;
+    flex: 33.3%;
   }
   /* .teamPage .worker img{
     width: 100%;

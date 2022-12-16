@@ -10,6 +10,39 @@ import Link from "next/link";
 
 const TeamPage = () => {
   const [activeTab, setActiveTab] = React.useState(1);
+  let Tab1 =  document.getElementById("Tab1Items");
+  let Tab2 =  document.getElementById("Tab2Items");
+  let Tab3 =  document.getElementById("Tab3Items");
+
+  React.useEffect(()=>{
+    let Tab1 =  document.getElementById("Tab1Items");
+    let Tab2 =  document.getElementById("Tab2Items");
+    let Tab3 =  document.getElementById("Tab3Items");
+    Tab1.style.display = "flex";
+    Tab2.style.display = "none";
+    Tab3.style.display = "none";
+  },[])
+  const Tab1Function = () =>{
+    setActiveTab(1)
+   Tab1.style.display = "flex";
+   Tab2.style.display = "none";
+   Tab3.style.display = "none";
+
+  }
+  const Tab2Function = () =>{
+    setActiveTab(2)
+   Tab2.style.display = "flex";
+   Tab1.style.display = "none";
+   Tab3.style.display = "none";
+
+  }
+  const Tab3Function = () =>{
+    setActiveTab(3)
+   Tab3.style.display = "flex";
+   Tab2.style.display = "none";
+   Tab1.style.display = "none";
+
+  }
   const [markdownObject, setMarkdownObject] = useState({
     headerTitleWithWhiteColor1: "The",
     headerTitleWithLogoColor: "Winning",
@@ -57,13 +90,14 @@ const TeamPage = () => {
   });
 
   useEffect(() => {
+   
     const mdString = String(teamMd)
       .substring(4, String(teamMd).length - 4)
       .split("\n")
       .join(", ");
     const _mdString = mdString.substring(0, mdString.length - 2);
 
-    const mdObj = _mdString.split(", ").reduce((acc: any, cur) => {
+    const mdObj = _mdString.split(", ").reduce((acc, cur) => {
       const [key, value] = cur.split(": ");
       acc[key.trim()] = value;
       return acc;
@@ -111,7 +145,7 @@ const TeamPage = () => {
                 backgroundColor: activeTab === 1 ? "#d96a2c" : "transparent",
                 color: activeTab === 1 ? "#fff" : "#999",
               }}
-              onClick={() => setActiveTab(1)}
+              onClick={Tab1Function}
             >
               {markdownObject.ourTeamHeaderBtn1}
             </button>
@@ -121,7 +155,7 @@ const TeamPage = () => {
                 backgroundColor: activeTab === 2 ? "#d96a2c" : "transparent",
                 color: activeTab === 2 ? "#fff" : "#999",
               }}
-              onClick={() => setActiveTab(2)}
+              onClick={Tab2Function}
             >
               {markdownObject.ourTeamHeaderBtn2}
             </button>
@@ -131,7 +165,7 @@ const TeamPage = () => {
                 backgroundColor: activeTab === 3 ? "#d96a2c" : "transparent",
                 color: activeTab === 3 ? "#fff" : "#999",
               }}
-              onClick={() => setActiveTab(3)}
+              onClick={Tab3Function}
             >
               {markdownObject.ourTeamHeaderBtn3}
             </button>
@@ -139,7 +173,7 @@ const TeamPage = () => {
           <br />
         </div>
 
-        <div className="workers-pages-1">
+        <div id="Tab1Items" className="workers-pages-1">
           <div className="worker">
             <img src={markdownObject.ourTeamWorker1Image} alt="" />
             <div className="worker_details">
@@ -202,7 +236,7 @@ const TeamPage = () => {
         </div>
 
         <br />
-        {/* <div className="workers-pages-2">
+        <div id="Tab2Items" className="workers-pages-1">
           <div className="worker">
             <img src={markdownObject.ourTeamWorker4Image} alt="" />
             <h1 className="worker-name">{markdownObject.ourTeamWorker4Name}</h1>
@@ -230,8 +264,29 @@ const TeamPage = () => {
             </div>
           </div>
           <div className="worker"></div>
-        </div> */}
-        <div className="workers-pages-1">
+        </div>
+
+        <div id="Tab3Items" className="workers-pages-1">
+          <div className="worker">
+            <img src={markdownObject.ourTeamWorker3Image} alt="" />
+            <div className="worker_details">
+            <h1 className="worker-name">{markdownObject.ourTeamWorker3Name}</h1>
+            <Link href="#">
+            <img src="/images/team/Linkedin.svg" alt="" />
+            </Link>
+            </div>
+            <div className="work-name">
+              <p>{markdownObject.ourTeamWorker3Position}</p>
+            </div>
+            <p className="favorite-sport">
+              {markdownObject.ourTeamWorker3SportsHeader}
+            </p>
+
+            <div className="games">
+              <img src={markdownObject.ourTeamWorker3SportsImage} alt="" />
+              <p>{markdownObject.ourTeamWorker3SportsName}</p>
+            </div>
+          </div>
           <div className="worker">
             <img src={markdownObject.ourTeamWorker4Image} alt="" />
             <div className="worker_details">
