@@ -74,8 +74,8 @@
 @media screen and (max-width: 1210px) {
   .homePage .brains-behind-header,
   .homePage .brains-behind .cards {
-    width: 100%;
-    padding: 0px 50px;
+    max-width: 90vw !important;
+    padding: 0px 10px !important;
   }
   .homePage .brains-behind .cards .card {
     width: 100%;
@@ -86,6 +86,12 @@
   }
   .brains-behind-cards-content {
     font-size: 18px;
+  }
+  .brains-behind-cards-peragraph{
+    max-width: 90vw !important;
+    font-size: 10px !important;
+    padding-top: 12px;
+
   }
 }
 
@@ -195,3 +201,49 @@
 button{
   cursor: pointer;
 }
+@media screen and (max-width: 600px) {
+
+.brains-behind-pc{
+  display: none !important;
+}
+.homePage .brains-behind .cards img {
+  border-radius: 10px;
+  width: 95% !important;
+}
+
+}
+@media screen and (min-width: 600px) {
+  .brains-behind-mob{
+    display: none !important;
+  }
+  
+  }
+
+  .splide__slide img {
+    height: auto;
+  }
+  
+  .splide__pagination {
+    display: none !important;
+    bottom: 0.5em;
+    left: 0;
+    padding: 0 1em;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+  }
+  .splide__arrow {
+    background: rgb(255, 145, 0) !important;
+    color: white !important;
+  }
+  .splide__arrow svg {
+    fill: rgb(255, 255, 255) !important;
+    height: 1.2em;
+    width: 1.2em;
+  }
+  
+  .splide__arrow {
+    top: 28% !important;
+  }
+
+  
