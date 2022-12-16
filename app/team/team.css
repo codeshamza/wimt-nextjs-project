@@ -1,0 +1,354 @@
+/* @media screen and (min-width: 1200px) { */
+.teamPage .header {
+  font-family: "Stolzl";
+  font-style: normal;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  /* position: relative;
+  bottom: 80px; */
+  margin-bottom: 100px;
+}
+.teamPage .header-img {
+  text-align: right;
+}
+.teamPage .header-img img {
+  width: 100%;
+}
+.teamPage .header-content {
+  position: relative;
+  top: 150px;
+  padding: 0px 150px;
+}
+.teamPage .header-content h1 {
+  font-weight: 400;
+  font-size: 56px;
+  color: #fff;
+}
+.teamPage .header-content p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+.teamPage .header-content-word-shaking {
+  color: #d96a2c;
+}
+.teamPage .our-team {
+  padding: 0px 150px 0px 150px;
+  font-family: "Stolzl";
+  font-style: normal;
+}
+.teamPage .workers-pages-1 {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-column-gap: 20px;
+}
+.teamPage .workers-pages-2 {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-column-gap: 20px;
+  max-width: 350px;
+}
+.teamPage .worker img {
+  border-radius: 10px;
+}
+.teamPage .worker > img {
+  width: 100%;
+}
+.teamPage .games {
+  display: flex;
+}
+.teamPage .worker-name {
+  margin: 10px 0 0 0;
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+}
+.teamPage .work-name p {
+  font-weight: 400;
+  font-size: 24px;
+  color: #999;
+}
+.teamPage .favorite-sport {
+  font-weight: 400;
+  font-size: 24px;
+  border-top: 1px solid #999;
+  padding-top: 30px;
+  color: #fff;
+  /* width: 345px; */
+}
+.teamPage .games p {
+  padding-left: 10px;
+}
+.teamPage .our-team-header-btn1 {
+  background-color: #d96a2c;
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+  padding: 8px 20px;
+  height: 45px;
+  border-radius: 8px;
+  border: none;
+}
+.teamPage .our-team-header-btn2 {
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 24px;
+  color: #999;
+  padding: 8px 20px;
+  height: 45px;
+  border-radius: 8px;
+  border: none;
+  margin-left: 10px;
+}
+.teamPage .our-team-header-btn3 {
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 24px;
+  color: #999;
+  padding: 8px 20px;
+  height: 45px;
+  border-radius: 8px;
+  border: none;
+  margin-left: 10px;
+}
+.teamPage .banner-bg {
+  font-family: "Stolzl";
+  font-style: normal;
+  background-image: url(/images/team/banner-bg.svg);
+  background-repeat: no-repeat;
+  padding: 100px 150px;
+  background-size: cover;
+  margin-top: 100px;
+}
+.teamPage .banner-bg-line1 {
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+}
+.teamPage .banner-bg-line2 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  opacity: 0.8;
+}
+/* } */
+
+@media screen and (max-width: 1024px) {
+  .teamPage .header-content {
+    position: relative;
+    top: 150px;
+    padding: 0px 100px;
+  }
+  .teamPage .our-team {
+    padding: 0px 100px;
+    font-family: "Stolzl";
+    font-style: normal;
+  }
+  .teamPage .banner-bg {
+    font-family: "Stolzl";
+    font-style: normal;
+    background-image: url(/images/team/banner-bg.svg);
+    background-repeat: no-repeat;
+    padding: 100px 150px;
+    background-size: cover;
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .teamPage .header-content {
+    position: relative;
+    top: 70px;
+    padding: 0px 50px;
+  }
+  .teamPage .our-team {
+    padding: 0px 50px;
+  }
+  .teamPage .worker-name,
+  .teamPage .work-name > p,
+  .teamPage .favorite-sport {
+    font-size: 18px;
+  }
+  .teamPage .header-content h1 {
+    font-size: 40px;
+  }
+  .teamPage .our-team-header-btn1,
+  .teamPage .our-team-header-btn2,
+  .teamPage .our-team-header-btn3 {
+    font-size: 14px;
+    padding: 0px 14px;
+    height: 35px;
+  }
+  .teamPage .workers-pages-1 {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-column-gap: 1%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .teamPage .header-content {
+    position: relative;
+    top: 70px;
+    padding: 0px 30px;
+  }
+  .teamPage .our-team {
+    padding: 0px 30px;
+  }
+  .teamPage .worker-name,
+  .teamPage .work-name > p,
+  .teamPage .favorite-sport {
+    font-size: 14px;
+  }
+  .teamPage .header-content h1 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .teamPage .header {
+    font-family: "Stolzl";
+    font-style: normal;
+    /* display: grid;
+		 grid-template-columns: 50% 50%;
+		*/
+    /* position: relative; */
+    /* top: 50px; */
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-bottom: 120px;
+    margin-top: 50px;
+  }
+  .teamPage .header-img {
+    text-align: center;
+  }
+  .teamPage .header-img img {
+    /* text-align: right;
+		 */
+    width: 350px;
+    margin-top: 2rem;
+  }
+  .teamPage .header-content {
+    padding: 0px 50px;
+  }
+  .teamPage .download-btns {
+    display: flex;
+    justify-content: space-between;
+  }
+  .teamPage .header-content h1 {
+    font-weight: 400;
+    font-size: 56px;
+    color: #fff;
+  }
+  .teamPage .header-content p {
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    color: #999;
+  }
+  .teamPage .header-content-word-shaking {
+    color: #d96a2c;
+  }
+  .teamPage .our-team {
+    padding: 0px 25px;
+    font-family: "Stolzl";
+    font-style: normal;
+  }
+  .teamPage .our-team-header {
+    text-align: center;
+  }
+  .teamPage .our-team-header h1 {
+    margin-bottom: 50px;
+  }
+  .teamPage .our-team-header-btns {
+    display: flex;
+    flex-direction: column;
+  }
+  .teamPage .workers-pages-1,
+  .teamPage .workers-pages-2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .teamPage .worker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    width: 100%;
+  }
+  /* .teamPage .worker img{
+    width: 100%;
+  } */
+  .teamPage .favorite-sport {
+    text-align: center;
+  }
+  .teamPage .banner-bg {
+    padding: 80px 24px;
+    /* margin-top: 50px; */
+  }
+}
+
+
+.worker_details{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.worker_details h1{
+flex: 50%;
+  
+}
+
+.worker_details img{
+  flex: 50%;
+  border-radius: 0px !important;
+  }
+
+  @media screen and (max-width: 500px){
+    .teamPage .header-content h1 {
+      font-weight: 400;
+      font-size: 35px;
+      color: #fff;
+      margin: 0;
+  }
+  }
+  @media screen and (max-width: 500px){
+    .teamPage .header-content {
+      padding: 0px 15px;
+  }
+  }
+  @media screen and (max-width: 500px){
+    .teamPage .header-img img {
+      /* text-align: right; */
+      width: 350px;
+      margin-top: 2rem;
+      width: 90%;
+  }
+  }
+  @media screen and (max-width: 500px){
+    .teamPage .our-team-header {
+      text-align: left;
+  }
+  }
+
+  @media screen and (max-width: 500px){
+    .teamPage .our-team-header h1 {
+      margin-bottom: 30px;
+      font-weight: 400;
+  }
+  .worker_details {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+    width: 98%;
+}
+.work-name{
+  margin: 0;
+}
+  }

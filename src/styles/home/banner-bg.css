@@ -1,0 +1,54 @@
+.homePage .banner-bg {
+  font-family: "Stolzl";
+  font-style: normal;
+  background-image: url(/images/home/2nd-banner.svg);
+  background-repeat: no-repeat;
+  padding: 80px 150px 80px 150px;
+  background-size: cover;
+  margin-top: 100px;
+
+  display: flex;
+  justify-content: center;
+}
+.homePage .banner-bg > div{
+  width: 1122px;
+}
+.homePage .banner-bg-line1 {
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+}
+.homePage .banner-bg-line2 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 600px) {
+  .homePage .banner-bg {
+    font-family: "Stolzl";
+    font-style: normal;
+    background-image: url(/images/home/2nd-banner.svg);
+    background-repeat: no-repeat;
+    padding: 20px 30px 20px 30px;
+    background-size: cover;
+    margin-top: 100px;
+  }
+  .homePage .banner-bg-line1 {
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+  }
+  .homePage .banner-bg-line2 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    opacity: 0.8;
+  }
+}
+
+#home-img{
+  margin-right: 15px;
+  padding-right: 15px;
+}

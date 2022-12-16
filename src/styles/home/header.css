@@ -1,0 +1,143 @@
+.homePage .header {
+  font-family: "Stolzl";
+  font-style: normal;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.homePage .header-img {
+  text-align: right;
+}
+.homePage .header-img img {
+  width: 100%;
+}
+.homePage .header-content {
+  position: relative;
+  top: 150px;
+  padding: 0px 150px;
+}
+.homePage .header-content h1 {
+  font-weight: 400;
+  font-size: 56px;
+  color: #fff;
+}
+.homePage .header-content p {
+  font-weight: 400;
+  font-size: 12px;
+  padding-left: 120px;
+  color: #999;
+}
+.homePage .header-content-word-shaking {
+  color: #d96a2c;
+}
+
+@media screen and (max-width: 1210px) {
+  .homePage .header-content {
+    padding: 0px 50px;
+  }
+  .homePage .header-content h1 {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .homePage .header-content h1 {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .homePage .header-content {
+    padding: 0px 30px;
+    top: 100px;
+  }
+  .homePage .header-content h1 {
+    font-size: 25px;
+  }
+  .download-btns
+    {
+       display: flex;
+    }
+  .download-btns img {
+    width: 40%;
+  }
+  .homePage .header-content p {
+    padding-left: 45px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .homePage .header-content {
+    padding: 0px 20px;
+    top: 60px;
+  }
+  .homePage .header-content h1 {
+    font-size: 20px;
+  }
+  .homePage .works {
+    font-family: "Stolzl";
+    font-style: normal;
+    margin-top: 80px !important;
+    background-image: url(/images/bg_element.png);
+    background-repeat: no-repeat;
+    background-position: 190% top !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.homePage .works-header { 
+    padding: 0px 30px;
+    font-size: 28px;
+}
+.homePage .works-header, .homePage .works-content {
+  padding: 0px;
+}
+.homePage .works-content  div {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center !important;
+}
+.homePage .works-content .card > img {
+  width: 90% !important;
+}
+.homePage .works-content .card {
+  width: 100% !important;
+  margin-bottom: 20px;
+}
+.homePage .works-content .line3-full {
+  display: flex;
+  column-gap: 12px;
+  flex-direction: row !important;
+}
+}
+@media screen and (max-width: 425px) {
+  .homePage .header {
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center !important;
+    padding: 0px 22px;
+  }
+  .homePage .header-content {
+    padding: 0px 20px;
+    top: 0px;
+  }
+  .homePage .header-img img {
+    margin-top: 2rem;
+  }
+  .homePage .header-content h1 {
+    font-size: 40px;
+  }
+  .homePage .header-content p {
+    padding: 0px;
+    text-align: center;
+  }
+  .download-btns img {
+    width: 49%;
+  }
+}
+
+
+/* =====Changings===== */
+button{
+  cursor: pointer;
+}

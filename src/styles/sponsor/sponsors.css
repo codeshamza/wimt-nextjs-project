@@ -1,0 +1,74 @@
+.sponsorPage {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  margin-top: 180px;
+  margin-bottom: 150px;
+  background-image: url(/images/Rectangle.svg);
+  background-repeat: no-repeat;
+  background-position: 0% top;
+
+}
+.sponsorPage_box {
+  padding: 0px 100px;
+}
+.box1-line1 {
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 110%;
+  color: #ffffff;
+}
+.box1-line2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+}
+.sponsors-input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #999999;
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #999999;
+  background-color: #181a20;
+}
+.message-box {
+  padding-bottom: 100px;
+}
+.box2-btn {
+  margin-top: 30px;
+  padding: 10px 25px;
+  background: #d96a2c;
+  border-radius: 100px;
+  border: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .sponsorPage {
+    flex-direction: column;
+    display: flex;
+  }
+  .sponsorPage_box {
+    padding: 0px 50px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .sponsorPage_box {
+    padding: 0px 30px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .homePage .sponsors-img1 {
+    border-radius: 20px;
+    width: 84%;
+}
+}
+

@@ -1,0 +1,115 @@
+.homePage .sponsor-apply {
+  font-family: "Stolzl";
+  font-style: normal;
+  background-image: url(/images/home/sponsor-apply.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 100px 0px 100px 0px;
+  margin-top: 200px;
+}
+.homePage .sponsor-apply-header-word-color {
+  color: #d96a2c;
+}
+.homePage .sponsors-img1 {
+  /* margin-right: 10px; */
+  margin: 0 10px;
+  border-radius: 20px;
+}
+.homePage .sponsors-img2 {
+  /* margin-left: 10px; */
+  margin: 0 10px;
+  border-radius: 20px;
+}
+.homePage .sponsors {
+  margin-top: 30px;
+}
+.sponsor-apply h1{
+  font-size: 32px;
+  font-family: "Stolzl";
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+.homePage .sponsor-apply-btn {
+  font-family: "Stolzl";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+  background: #d96a2c;
+  border-radius: 100px;
+  padding: 12px 32px;
+  border: none;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .homePage .sponsor-apply {
+    font-family: "Stolzl";
+    font-style: normal;
+    background-image: url(/images/home/sponsor-apply.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 100px 0px 100px 0px;
+    margin-top: 200px;
+  }
+  .homePage .sponsor-apply-header-word-color {
+    color: #d96a2c;
+  }
+  .homePage .sponsors-img1 {
+    border-radius: 20px;
+  }
+  .homePage .sponsors-img2 {
+    border-radius: 20px;
+    margin-top: 10px;
+  }
+  .homePage .sponsors {
+    margin-top: 30px;
+  }
+  .homePage .sponsor-apply-btn {
+    font-family: "Stolzl";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    background: #d96a2c;
+    border-radius: 100px;
+    padding: 12px 32px;
+    border: none;
+    margin-top: 40px;
+  }
+}
+
+button{
+  cursor: pointer;
+}
+@media screen and (max-width: 600px){
+  .homePage .sponsors-img1 {
+    border-radius: 20px;
+    width: 84%;
+}
+.homePage .sponsors-img2 {
+  border-radius: 20px;
+  width: 84%;
+}
+.sponsor-apply h1 {
+  font-size: 23px;
+  font-family: "Stolzl";
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+.sponsorPage {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  background-image: url(/images/Rectangle.svg);
+  background-repeat: no-repeat;
+  background-position: -10% top;
+}
+.homePage .sponsor-apply {
+    margin-top: 100px;
+}
+}
+

@@ -1,0 +1,188 @@
+.homePage .early-adopters {
+  padding: 150px;
+  /* margin-top: 150px; */
+  font-family: "Stolzl";
+  font-style: normal;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.homePage .early-adopters-header {
+  font-weight: 400;
+  font-size: 32px;
+  color: #fff;
+  width: 1122px;
+}
+.homePage .early-adopters-header-word-color {
+  color: #d96a2c;
+}
+.homePage .early-adopters-all-box {
+  /* display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-column-gap: 60px; */
+
+  display: flex;
+  justify-content: center;
+}
+.homePage .early-adopters-all-box > div {
+  display: flex;
+}
+.homePage .early-adopters-box {
+  width: 350px;
+  margin: 12px;
+}
+.homePage .early-adopters-box-line1 {
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+}
+.homePage .early-adopters-box-line2 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+.homePage .early-adopters-box-line3 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  opacity: 0.5;
+}
+.homePage .early-adopters-box-line-border {
+  width: 100px;
+  border-top: 2px solid #d96a2c;
+}
+
+@media screen and (max-width: 1210px) {
+  .homePage .early-adopters-header{
+    width: 100%;
+    padding: 0px 22px;
+  }
+  .homePage .early-adopters-all-box {
+    width: 100%;
+    padding: 0px 10px;
+  }
+  .homePage .early-adopters-box {
+    width: 100%;
+    margin: 10px;
+  }
+  .homePage .early-adopters-box > img {
+    width: 100%;
+  }
+  .homePage .early-adopters-box-line1,
+  .homePage .early-adopters-box-line2,
+  .homePage .early-adopters-box-line3 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .homePage .early-adopters-header,
+  .homePage .early-adopters-all-box {
+    padding: 0px 30px;
+  }
+  .homePage .early-adopters-box-line1,
+  .homePage .early-adopters-box-line2,
+  .homePage .early-adopters-box-line3 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .homePage .early-adopters-box-line1,
+  .homePage .early-adopters-box-line2,
+  .homePage .early-adopters-box-line3 {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .homePage .early-adopters-header,
+  .homePage .early-adopters-all-box {
+    padding: 0px 20px;
+  }
+  .homePage .early-adopters-box-line1,
+  .homePage .early-adopters-box-line2,
+  .homePage .early-adopters-box-line3 {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .homePage .early-adopters {
+    padding: 100px 0;
+  }
+  .homePage .early-adopters-header {
+    padding: 0px 40px;
+  }
+  .homePage .early-adopters-all-box > div {
+    flex-direction: column;
+  }
+  .homePage .early-adopters-box {
+    width: 340px;
+    margin-bottom: 20px;
+  }
+  .homePage .early-adopters-box-line1,
+  .homePage .early-adopters-box-line2,
+  .homePage .early-adopters-box-line3 {
+    font-size: 24px;
+  }
+  .homePage .early-adopters-box {
+    width: 100%;
+    margin-bottom: 0px;
+}
+}
+
+@media screen and (max-width: 600px) {
+  .homePage .early-adopters {
+    padding: 0px;
+    margin: 0;
+    margin-top: 50px;
+    font-family: "Stolzl";
+    font-style: normal;
+    /* text-align: center; */
+    margin-bottom: 40px;
+    max-width: 100vw;
+  }
+  .homePage .early-adopters-header {
+    font-weight: 400;
+    font-size: 32px;
+    color: #fff;
+  }
+  .homePage .early-adopters-header-word-color {
+    color: #d96a2c;
+  }
+  .homePage .early-adopters-box-line1 {
+    max-width: 100vw;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+  }
+  .homePage .early-adopters-box-line2 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+  }
+  .homePage .early-adopters-box-line3 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    opacity: 0.5;
+  }
+  .homePage .early-adopters-box-line-border {
+    width: 100px;
+    border-top: 2px solid #d96a2c;
+  }
+  .homePage .early-adopters-box-line2 {
+    font-size: 13px;
+    line-height: 20px;
+    color: #fff;
+}
+}
+
+
+/* ======Changings======= */
+.homePage .early-adopters-box-line2 {
+  font-weight: 100;
+  line-height: 28px;
+}
