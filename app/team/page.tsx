@@ -14,35 +14,35 @@ const TeamPage = () => {
   let Tab2 =  document.getElementById("Tab2Items");
   let Tab3 =  document.getElementById("Tab3Items");
 
-  React.useEffect(()=>{
-    let Tab1 =  document.getElementById("Tab1Items");
-    let Tab2 =  document.getElementById("Tab2Items");
-    let Tab3 =  document.getElementById("Tab3Items");
-    Tab1.style.display = "flex";
-    Tab2.style.display = "none";
-    Tab3.style.display = "none";
-  },[])
-  const Tab1Function = () =>{
-    setActiveTab(1)
-   Tab1.style.display = "flex";
-   Tab2.style.display = "none";
-   Tab3.style.display = "none";
+  // React.useEffect(()=>{
+  //   let Tab1 =  document.getElementById("Tab1Items");
+  //   let Tab2 =  document.getElementById("Tab2Items");
+  //   let Tab3 =  document.getElementById("Tab3Items");
+  //   Tab1.style.display = "flex";
+  //   Tab2.style.display = "none";
+  //   Tab3.style.display = "none";
+  // },[])
+  // const Tab1Function = () =>{
+  //   setActiveTab(1)
+  //  Tab1.style.display = "flex";
+  //  Tab2.style.display = "none";
+  //  Tab3.style.display = "none";
 
-  }
-  const Tab2Function = () =>{
-    setActiveTab(2)
-   Tab2.style.display = "flex";
-   Tab1.style.display = "none";
-   Tab3.style.display = "none";
+  // }
+  // const Tab2Function = () =>{
+  //   setActiveTab(2)
+  //  Tab2.style.display = "flex";
+  //  Tab1.style.display = "none";
+  //  Tab3.style.display = "none";
 
-  }
-  const Tab3Function = () =>{
-    setActiveTab(3)
-   Tab3.style.display = "flex";
-   Tab2.style.display = "none";
-   Tab1.style.display = "none";
+  // }
+  // const Tab3Function = () =>{
+  //   setActiveTab(3)
+  //  Tab3.style.display = "flex";
+  //  Tab2.style.display = "none";
+  //  Tab1.style.display = "none";
 
-  }
+  // }
   const [markdownObject, setMarkdownObject] = useState({
     headerTitleWithWhiteColor1: "The",
     headerTitleWithLogoColor: "Winning",
@@ -97,7 +97,7 @@ const TeamPage = () => {
       .join(", ");
     const _mdString = mdString.substring(0, mdString.length - 2);
 
-    const mdObj = _mdString.split(", ").reduce((acc, cur) => {
+    const mdObj = _mdString.split(", ").reduce((acc:any, cur) => {
       const [key, value] = cur.split(": ");
       acc[key.trim()] = value;
       return acc;
@@ -145,7 +145,7 @@ const TeamPage = () => {
                 backgroundColor: activeTab === 1 ? "#d96a2c" : "transparent",
                 color: activeTab === 1 ? "#fff" : "#999",
               }}
-              onClick={Tab1Function}
+              // onClick={Tab1Function}
             >
               {markdownObject.ourTeamHeaderBtn1}
             </button>
@@ -155,7 +155,7 @@ const TeamPage = () => {
                 backgroundColor: activeTab === 2 ? "#d96a2c" : "transparent",
                 color: activeTab === 2 ? "#fff" : "#999",
               }}
-              onClick={Tab2Function}
+              // onClick={Tab2Function}
             >
               {markdownObject.ourTeamHeaderBtn2}
             </button>
@@ -165,7 +165,7 @@ const TeamPage = () => {
                 backgroundColor: activeTab === 3 ? "#d96a2c" : "transparent",
                 color: activeTab === 3 ? "#fff" : "#999",
               }}
-              onClick={Tab3Function}
+              // onClick={Tab3Function}
             >
               {markdownObject.ourTeamHeaderBtn3}
             </button>
