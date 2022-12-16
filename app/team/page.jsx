@@ -14,36 +14,36 @@ const TeamPage = () => {
   let Tab2 =  document.getElementById("Tab2Items");
   let Tab3 =  document.getElementById("Tab3Items");
 
-    setTimeout(()=>{
-      let Tab1 =  document.getElementById("Tab1Items");
-      let Tab2 =  document.getElementById("Tab2Items");
-      let Tab3 =  document.getElementById("Tab3Items");
-      // Tab1.style.display = "flex";
-      // Tab2.style.display = "none";
-      // Tab3.style.display = "none";
-    },100)
+    // setTimeout(()=>{
+    //   let Tab1 =  document.getElementById("Tab1Items");
+    //   let Tab2 =  document.getElementById("Tab2Items");
+    //   let Tab3 =  document.getElementById("Tab3Items");
+    //   // Tab1.style.display = "flex";
+    //   // Tab2.style.display = "none";
+    //   // Tab3.style.display = "none";
+    // },100)
     
-  const Tab1Function = () =>{
-    setActiveTab(1)
-   Tab1.style.display = "flex";
-   Tab2.style.display = "none";
-   Tab3.style.display = "none";
+  // const Tab1Function = () =>{
+  //   setActiveTab(1)
+  //  Tab1.style.display = "flex";
+  //  Tab2.style.display = "none";
+  //  Tab3.style.display = "none";
 
-  }
-  const Tab2Function = () =>{
-    setActiveTab(2)
-   Tab2.style.display = "flex";
-   Tab1.style.display = "none";
-   Tab3.style.display = "none";
+  // }
+  // const Tab2Function = () =>{
+  //   setActiveTab(2)
+  //  Tab2.style.display = "flex";
+  //  Tab1.style.display = "none";
+  //  Tab3.style.display = "none";
 
-  }
-  const Tab3Function = () =>{
-    setActiveTab(3)
-   Tab3.style.display = "flex";
-   Tab2.style.display = "none";
-   Tab1.style.display = "none";
+  // }
+  // const Tab3Function = () =>{
+  //   setActiveTab(3)
+  //  Tab3.style.display = "flex";
+  //  Tab2.style.display = "none";
+  //  Tab1.style.display = "none";
 
-  }
+  // }
   const [markdownObject, setMarkdownObject] = useState({
     headerTitleWithWhiteColor1: "The",
     headerTitleWithLogoColor: "Winning",
