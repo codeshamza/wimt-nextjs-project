@@ -81,7 +81,7 @@ const Works = ({ markdownObject }) => {
       {/* content */}
       <section className="works-content">
         <div>
-        <section id="image-carousel" class="splide" aria-label="Beautiful Images">
+        <section id="image-carousel" class="splide work-con" aria-label="Beautiful Images">
   <div class="splide__track">
 		<ul class="splide__list">
 			<li class="splide__slide">

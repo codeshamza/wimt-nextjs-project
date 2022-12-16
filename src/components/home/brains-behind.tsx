@@ -90,8 +90,8 @@ const BrainsBehind = ({ markdownObject }: any) => {
       {/* content */}
       <section className="cards">
         <div>
-        <section id="image-carousel2" className="splide" aria-label="Beautiful Images">
-  <div className="splide__track">
+        <section id="image-carousel2" className="splide brains-con" aria-label="Beautiful Images">
+  <div className="splide__track ">
 		<ul className="splide__list">
 			<li className="splide__slide card">
 				<img src={markdownObject.bannerBgImage1} alt=""/>
