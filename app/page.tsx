@@ -13,7 +13,9 @@ import {
 
 // markdown
 // @ts-ignore
-import homeMd from "cms/cms-home/home.md";
+import homeMd from "cms/home/home.md";
+console.log(homeMd);
+
 
 const HomePage = () => {
   const [markdownObject, setMarkdownObject] = useState({
