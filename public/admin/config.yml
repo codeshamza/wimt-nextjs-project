@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
   repo: arifpro/wimt
-  branch: main 
+  branch: main
 media_folder: "public/upload/images" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/upload/images" # The src attribute for uploaded media will begin with /images/uploads
 collections:
@@ -20,144 +20,574 @@ collections:
   #     - {label: "Title", name: "title", widget: "string"}
   #     - {label: "Body", name: "body", widget: "markdown"}
   #     - {label: "Draft post", name: "draft", widget: "boolean", hint: "Publish post to set to false", required: true, default: true}
-   - name: "home"
-    label: "Home"
-    folder: "src/cms/home.md"
-    create: false
-    slug: "home"
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-        name: "earlyAdopters"
-        widget: "object"
-        summary: 'EarlyAdopters'
-        fields:
-          - {label: "EarlyAdopters Title with white color", name: "earlyAdoptersTitleWithWhiteColor", widget: "string"}
-          - {label: "EarlyAdopters Title with logo color", name: "earlyAdoptersTitleWithLogoColor", widget: "string"}
-          - {label: "EarlyAdopters Adopter Title 1", name: "earlyAdoptersAdopterTitle1", widget: "string"}
-          - {label: "EarlyAdopters Adopter Title 1 info 1", name: "earlyAdoptersAdopterTitle1Info1", widget: "string"}
-          - {label: "EarlyAdopters Adopter Title 1 info 2", name: "earlyAdoptersAdopterTitle1Info2", widget: "string"}
-          - {label: "EarlyAdopters Adopter Title 1 position", name: "earlyAdoptersAdopterTitle1Position", widget: "string"}
-          - {label: "EarlyAdopters Adopter Title 2", name: "earlyAdoptersAdopterTitle2", widget: "string"}
-          - {label: "EarlyAdopters Adopter Title 2 info 1", name: "earlyAdoptersAdopterTitle2Info1", widget: "string"}
-          - {label: "EarlyAdopters Adopter Title 2 info 2", name: "earlyAdoptersAdopterTitle2Info2", widget: "string"}
-          - {label: "EarlyAdopters Adopter Title 2 position", name: "earlyAdoptersAdopterTitle2Position", widget: "string"}
-          - {label: "EarlyAdopters Adopter Title 3", name: "earlyAdoptersAdopterTitle3", widget: "string"}
-          - {label: "EarlyAdopters Adopter Title 3 info 1", name: "earlyAdoptersAdopterTitle3Info1", widget: "string"}
-          - {label: "EarlyAdopters Adopter Title 3 info 2", name: "earlyAdoptersAdopterTitle3Info2", widget: "string"}
-          - {label: "EarlyAdopters Adopter Title 3 position", name: "earlyAdoptersAdopterTitle3Position", widget: "string"}
   - name: "navbar"
     label: "Navbar"
     folder: "src/cms/navbar"
     create: false
     slug: "navbar"
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Logo", name: "logo", widget: "image"}
-      - {label: "Nav Item 1", name: "navItem1", widget: "string"}
-      - {label: "Nav Item 2", name: "navItem2", widget: "string"}
-      - {label: "Button", name: "button", widget: "string"}
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Logo", name: "logo", widget: "image" }
+      - { label: "Nav Item 1", name: "navItem1", widget: "string" }
+      - { label: "Nav Item 2", name: "navItem2", widget: "string" }
+      - { label: "Button", name: "button", widget: "string" }
   - name: "footer"
     label: "Footer"
     folder: "src/cms/footer"
     create: false
     slug: "footer"
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Footer Logo", name: "footerLogo", widget: "image"}
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Footer Logo", name: "footerLogo", widget: "image" }
       # - {label: "Pages", name: "pages", widget: "list", default: ["Home", "Team", "Sponsors"]}
       - label: "Pages"
         name: "pages"
         widget: "object"
-        summary: '{{fields.page1}}, {{fields.page2}}, {{fields.page3}}'
+        summary: "{{fields.page1}}, {{fields.page2}}, {{fields.page3}}"
         fields:
-          - {label: "Page 1", name: "page1", widget: "string"}
-          - {label: "Page 2", name: "page2", widget: "string"}
-          - {label: "Page 3", name: "page3", widget: "string"}
+          - { label: "Page 1", name: "page1", widget: "string" }
+          - { label: "Page 2", name: "page2", widget: "string" }
+          - { label: "Page 3", name: "page3", widget: "string" }
       - label: "Contact"
         name: "contact"
         widget: "object"
-        summary: '{{fields.email}}: {{fields.phone}}'
+        summary: "{{fields.email}}: {{fields.phone}}"
         fields:
-          - {label: "Email", name: "email", widget: "string"}
-          - {label: "Phone", name: "phone", widget: "string"}
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Phone", name: "phone", widget: "string" }
       - label: "Co-Footer"
         name: "co-footer"
         widget: "object"
-        summary: 'co footer'
+        summary: "co footer"
         fields:
-          - {label: "Left Text", name: "leftText", widget: "string"}
-          - {label: "Right Text 1", name: "rightText1", widget: "string"}
-          - {label: "Right Text 2", name: "rightText2", widget: "string"}
+          - { label: "Left Text", name: "leftText", widget: "string" }
+          - { label: "Right Text 1", name: "rightText1", widget: "string" }
+          - { label: "Right Text 2", name: "rightText2", widget: "string" }
   - name: "sponsor"
     label: "Sponsor"
-    folder: "src/cms/sponsor"
+    folder: "src/cms/home"
     create: false
     slug: "sponsor"
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Content", name: "content", widget: "string"}
-      - {label: "Button", name: "button", widget: "string"}
+      - { label: "Title", name: "title", widget: "string" }
+    
+  - name: "home"
+    label: "Home"
+    folder: "src/cms/home"
+    create: false
+    slug: "home"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - label: "Header"
+        name: "header"
+        widget: "object"
+        summary: "Header"
+        fields:
+          - {
+              label: "Header Title with logo color",
+              name: "headerTitleWithLogoColor",
+              widget: "string",
+            }
+          - {
+              label: "Header Title with white color",
+              name: "headerTitleWithWhiteColor",
+              widget: "string",
+            }
+          - {
+              label: "Header Coming soon text",
+              name: "headerComingSoon",
+              widget: "string",
+            }
+          - { label: "Header image", name: "headerImage", widget: "image" }
+      - label: "Works"
+        name: "works"
+        widget: "object"
+        summary: "Works"
+        fields:
+          - {
+              label: "Works Title - We",
+              name: "worksTitleWe",
+              widget: "string",
+            }
+          - {
+              label: "Works Title with logo color",
+              name: "worksTitleWithLogoColor",
+              widget: "string",
+            }
+          - {
+              label: "Works Title with white color",
+              name: "worksTitleWithWhiteColor",
+              widget: "string",
+            }
+          - { label: "Works image 1", name: "worksImage1", widget: "image" }
+          - {
+              label: "Works image 1 name",
+              name: "worksImage1Name",
+              widget: "string",
+            }
+          - {
+              label: "Works image 1 position",
+              name: "worksImage1Position",
+              widget: "string",
+            }
+          - {
+              label: "Works image 1 skill",
+              name: "worksImage1Skill",
+              widget: "string",
+            }
+          - { label: "Works image 2", name: "worksImage2", widget: "image" }
+          - {
+              label: "Works image 2 name",
+              name: "worksImage2Name",
+              widget: "string",
+            }
+          - {
+              label: "Works image 2 position",
+              name: "worksImage2Position",
+              widget: "string",
+            }
+          - {
+              label: "Works image 2 skill",
+              name: "worksImage2Skill",
+              widget: "string",
+            }
+          - { label: "Works image 3", name: "worksImage3", widget: "image" }
+          - {
+              label: "Works image 3 name",
+              name: "worksImage3Name",
+              widget: "string",
+            }
+          - {
+              label: "Works image 3 position",
+              name: "worksImage3Position",
+              widget: "string",
+            }
+          - {
+              label: "Works image 3 skill",
+              name: "worksImage3Skill",
+              widget: "string",
+            }
+      - label: "Banner Background"
+        name: "bannerBg"
+        widget: "object"
+        summary: "BannerBg"
+        fields:
+          - { label: "BannerBg quote", name: "bannerBgQuote", widget: "string" }
+          - { label: "BannerBg name", name: "bannerBgName", widget: "string" }
+          - {
+              label: "BannerBg position",
+              name: "bannerBgPosition",
+              widget: "string",
+            }
+      - label: "BrainsBehind"
+        name: "brainsBehind"
+        widget: "object"
+        summary: "BrainsBehind"
+        fields:
+          - {
+              label: "BrainsBehind Title with logo color",
+              name: "brainsBehindTitleWithLogoColor",
+              widget: "string",
+            }
+          - {
+              label: "BrainsBehind Title with white color",
+              name: "brainsBehindTitleWithWhiteColor",
+              widget: "string",
+            }
+          - {
+              label: "BrainsBehind image 1",
+              name: "bannerBgImage1",
+              widget: "image",
+            }
+          - {
+              label: "BrainsBehind image 1 name",
+              name: "bannerBgImage1Name",
+              widget: "string",
+            }
+          - {
+              label: "BrainsBehind image 1 info 1",
+              name: "bannerBgImage1Info1",
+              widget: "string",
+            }
+          - {
+              label: "BrainsBehind image 1 info 2",
+              name: "bannerBgImage1Info2",
+              widget: "string",
+            }
+          - {
+              label: "BrainsBehind image 1 info 3",
+              name: "bannerBgImage1Info3",
+              widget: "string",
+            }
+          - {
+              label: "BrainsBehind image 2",
+              name: "bannerBgImage2",
+              widget: "image",
+            }
+          - {
+              label: "BrainsBehind image 2 name",
+              name: "bannerBgImage2Name",
+              widget: "string",
+            }
+          - {
+              label: "BrainsBehind image 2 info 1",
+              name: "bannerBgImage2Info1",
+              widget: "string",
+            }
+          - {
+              label: "BrainsBehind image 2 info 2",
+              name: "bannerBgImage2Info2",
+              widget: "string",
+            }
+          - {
+              label: "BrainsBehind image 2 info 3",
+              name: "bannerBgImage2Info3",
+              widget: "string",
+            }
+          - {
+              label: "BrainsBehind image 3",
+              name: "bannerBgImage3",
+              widget: "image",
+            }
+          - {
+              label: "BrainsBehind image 3 name",
+              name: "bannerBgImage3Name",
+              widget: "string",
+            }
+          - {
+              label: "BrainsBehind image 3 info 1",
+              name: "bannerBgImage3Info1",
+              widget: "string",
+            }
+          - {
+              label: "BrainsBehind image 3 info 2",
+              name: "bannerBgImage3Info2",
+              widget: "string",
+            }
+          - {
+              label: "BrainsBehind image 3 info 3",
+              name: "bannerBgImage3Info3",
+              widget: "string",
+            }
+      - label: "SponsorApply"
+        name: "sponsorApply"
+        widget: "object"
+        summary: "SponsorApply"
+        fields:
+          - {
+              label: "SponsorApply Title with white color 1",
+              name: "sponsorApplyTitleWithWhiteColor1",
+              widget: "string",
+            }
+          - {
+              label: "SponsorApply Title with logo color",
+              name: "sponsorApplyTitleWithLogoColor",
+              widget: "string",
+            }
+          - {
+              label: "SponsorApply Title with white color 2",
+              name: "sponsorApplyTitleWithWhiteColor2",
+              widget: "string",
+            }
+          - {
+              label: "SponsorApply logo1",
+              name: "sponsorApplyLogo1",
+              widget: "image",
+            }
+          - {
+              label: "SponsorApply logo2",
+              name: "sponsorApplyLogo2",
+              widget: "image",
+            }
+          - {
+              label: "SponsorApply button text",
+              name: "sponsorApplyBtnText",
+              widget: "string",
+            }
+      - label: "EarlyAdopters"
+        name: "earlyAdopters"
+        widget: "object"
+        summary: "EarlyAdopters"
+        fields:
+          - {
+              label: "EarlyAdopters Title with white color",
+              name: "earlyAdoptersTitleWithWhiteColor",
+              widget: "string",
+            }
+          - {
+              label: "EarlyAdopters Title with logo color",
+              name: "earlyAdoptersTitleWithLogoColor",
+              widget: "string",
+            }
+          - {
+              label: "EarlyAdopters Adopter Title 1",
+              name: "earlyAdoptersAdopterTitle1",
+              widget: "string",
+            }
+          - {
+              label: "EarlyAdopters Adopter Title 1 info 1",
+              name: "earlyAdoptersAdopterTitle1Info1",
+              widget: "string",
+            }
+          - {
+              label: "EarlyAdopters Adopter Title 1 info 2",
+              name: "earlyAdoptersAdopterTitle1Info2",
+              widget: "string",
+            }
+          - {
+              label: "EarlyAdopters Adopter Title 1 position",
+              name: "earlyAdoptersAdopterTitle1Position",
+              widget: "string",
+            }
+          - {
+              label: "EarlyAdopters Adopter Title 2",
+              name: "earlyAdoptersAdopterTitle2",
+              widget: "string",
+            }
+          - {
+              label: "EarlyAdopters Adopter Title 2 info 1",
+              name: "earlyAdoptersAdopterTitle2Info1",
+              widget: "string",
+            }
+          - {
+              label: "EarlyAdopters Adopter Title 2 info 2",
+              name: "earlyAdoptersAdopterTitle2Info2",
+              widget: "string",
+            }
+          - {
+              label: "EarlyAdopters Adopter Title 2 position",
+              name: "earlyAdoptersAdopterTitle2Position",
+              widget: "string",
+            }
+          - {
+              label: "EarlyAdopters Adopter Title 3",
+              name: "earlyAdoptersAdopterTitle3",
+              widget: "string",
+            }
+          - {
+              label: "EarlyAdopters Adopter Title 3 info 1",
+              name: "earlyAdoptersAdopterTitle3Info1",
+              widget: "string",
+            }
+          - {
+              label: "EarlyAdopters Adopter Title 3 info 2",
+              name: "earlyAdoptersAdopterTitle3Info2",
+              widget: "string",
+            }
+          - {
+              label: "EarlyAdopters Adopter Title 3 position",
+              name: "earlyAdoptersAdopterTitle3Position",
+              widget: "string",
+            }
   - name: "team"
     label: "Team"
     folder: "src/cms/team"
     create: false
     slug: "team"
     fields:
-      - {label: "Title", name: "title", widget: "string"}
+      - { label: "Title", name: "title", widget: "string" }
       - label: "Header"
         name: "header"
         widget: "object"
-        summary: 'Header'
+        summary: "Header"
         fields:
-          - {label: "Header Title with white color 1", name: "headerTitleWithWhiteColor1", widget: "string"}
-          - {label: "Header Title with logo color", name: "headerTitleWithLogoColor", widget: "string"}
-          - {label: "Header Title with white color 2", name: "headerTitleWithWhiteColor2", widget: "string"}
-          - {label: "Header Text", name: "headerText", widget: "string"}
-          - {label: "Header image", name: "headerImage", widget: "image"}
+          - {
+              label: "Header Title with white color 1",
+              name: "headerTitleWithWhiteColor1",
+              widget: "string",
+            }
+          - {
+              label: "Header Title with logo color",
+              name: "headerTitleWithLogoColor",
+              widget: "string",
+            }
+          - {
+              label: "Header Title with white color 2",
+              name: "headerTitleWithWhiteColor2",
+              widget: "string",
+            }
+          - { label: "Header Text", name: "headerText", widget: "string" }
+          - { label: "Header image", name: "headerImage", widget: "image" }
       - label: "OurTeam"
         name: "ourTeam"
         widget: "object"
-        summary: 'OurTeam'
+        summary: "OurTeam"
         fields:
-          - {label: "OurTeam Header", name: "ourTeamHeader", widget: "string"}
-          - {label: "OurTeam Header Btn1", name: "ourTeamHeaderBtn1", widget: "string"}
-          - {label: "OurTeam Header Btn2", name: "ourTeamHeaderBtn2", widget: "string"}
-          - {label: "OurTeam Header Btn3", name: "ourTeamHeaderBtn3", widget: "string"}
-          - {label: "OurTeam Worker 1 Image", name: "ourTeamWorker1Image", widget: "image"}
-          - {label: "OurTeam Worker 1 Name", name: "ourTeamWorker1Name", widget: "string"}
-          - {label: "OurTeam Worker 1 Position", name: "ourTeamWorker1Position", widget: "string"}
-          - {label: "OurTeam Worker 1 Sports Header", name: "ourTeamWorker1SportsHeader", widget: "string"}
-          - {label: "OurTeam Worker 1 Sports Image", name: "ourTeamWorker1SportsImage", widget: "image"}
-          - {label: "OurTeam Worker 1 Sports Name", name: "ourTeamWorker1SportsName", widget: "string"}
-          - {label: "OurTeam Worker 2 Image", name: "ourTeamWorker2Image", widget: "image"}
-          - {label: "OurTeam Worker 2 Name", name: "ourTeamWorker2Name", widget: "string"}
-          - {label: "OurTeam Worker 2 Position", name: "ourTeamWorker2Position", widget: "string"}
-          - {label: "OurTeam Worker 2 Sports Header", name: "ourTeamWorker2SportsHeader", widget: "string"}
-          - {label: "OurTeam Worker 2 Sports Image", name: "ourTeamWorker2SportsImage", widget: "image"}
-          - {label: "OurTeam Worker 2 Sports Name", name: "ourTeamWorker2SportsName", widget: "string"}
-          - {label: "OurTeam Worker 3 Image", name: "ourTeamWorker3Image", widget: "image"}
-          - {label: "OurTeam Worker 3 Name", name: "ourTeamWorker3Name", widget: "string"}
-          - {label: "OurTeam Worker 3 Position", name: "ourTeamWorker3Position", widget: "string"}
-          - {label: "OurTeam Worker 3 Sports Header", name: "ourTeamWorker3SportsHeader", widget: "string"}
-          - {label: "OurTeam Worker 3 Sports Image", name: "ourTeamWorker3SportsImage", widget: "image"}
-          - {label: "OurTeam Worker 3 Sports Name", name: "ourTeamWorker3SportsName", widget: "string"}
-          - {label: "OurTeam Worker 4 Image", name: "ourTeamWorker4Image", widget: "image"}
-          - {label: "OurTeam Worker 4 Name", name: "ourTeamWorker4Name", widget: "string"}
-          - {label: "OurTeam Worker 4 Position", name: "ourTeamWorker4Position", widget: "string"}
-          - {label: "OurTeam Worker 4 Sports Header", name: "ourTeamWorker4SportsHeader", widget: "string"}
-          - {label: "OurTeam Worker 4 Sports Image", name: "ourTeamWorker4SportsImage", widget: "image"}
-          - {label: "OurTeam Worker 4 Sports Name", name: "ourTeamWorker4SportsName", widget: "string"}
-          - {label: "OurTeam Worker 5 Image", name: "ourTeamWorker5Image", widget: "image"}
-          - {label: "OurTeam Worker 5 Name", name: "ourTeamWorker5Name", widget: "string"}
-          - {label: "OurTeam Worker 5 Position", name: "ourTeamWorker5Position", widget: "string"}
-          - {label: "OurTeam Worker 5 Sports Header", name: "ourTeamWorker5SportsHeader", widget: "string"}
-          - {label: "OurTeam Worker 5 Sports Image", name: "ourTeamWorker5SportsImage", widget: "image"}
-          - {label: "OurTeam Worker 5 Sports Name", name: "ourTeamWorker5SportsName", widget: "string"}
+          - { label: "OurTeam Header", name: "ourTeamHeader", widget: "string" }
+          - {
+              label: "OurTeam Header Btn1",
+              name: "ourTeamHeaderBtn1",
+              widget: "string",
+            }
+          - {
+              label: "OurTeam Header Btn2",
+              name: "ourTeamHeaderBtn2",
+              widget: "string",
+            }
+          - {
+              label: "OurTeam Header Btn3",
+              name: "ourTeamHeaderBtn3",
+              widget: "string",
+            }
+          - {
+              label: "OurTeam Worker 1 Image",
+              name: "ourTeamWorker1Image",
+              widget: "image",
+            }
+          - {
+              label: "OurTeam Worker 1 Name",
+              name: "ourTeamWorker1Name",
+              widget: "string",
+            }
+          - {
+              label: "OurTeam Worker 1 Position",
+              name: "ourTeamWorker1Position",
+              widget: "string",
+            }
+          - {
+              label: "OurTeam Worker 1 Sports Header",
+              name: "ourTeamWorker1SportsHeader",
+              widget: "string",
+            }
+          - {
+              label: "OurTeam Worker 1 Sports Image",
+              name: "ourTeamWorker1SportsImage",
+              widget: "image",
+            }
+          - {
+              label: "OurTeam Worker 1 Sports Name",
+              name: "ourTeamWorker1SportsName",
+              widget: "string",
+            }
+          - {
+              label: "OurTeam Worker 2 Image",
+              name: "ourTeamWorker2Image",
+              widget: "image",
+            }
+          - {
+              label: "OurTeam Worker 2 Name",
+              name: "ourTeamWorker2Name",
+              widget: "string",
+            }
+          - {
+              label: "OurTeam Worker 2 Position",
+              name: "ourTeamWorker2Position",
+              widget: "string",
+            }
+          - {
+              label: "OurTeam Worker 2 Sports Header",
+              name: "ourTeamWorker2SportsHeader",
+              widget: "string",
+            }
+          - {
+              label: "OurTeam Worker 2 Sports Image",
+              name: "ourTeamWorker2SportsImage",
+              widget: "image",
+            }
+          - {
+              label: "OurTeam Worker 2 Sports Name",
+              name: "ourTeamWorker2SportsName",
+              widget: "string",
+            }
+          - {
+              label: "OurTeam Worker 3 Image",
+              name: "ourTeamWorker3Image",
+              widget: "image",
+            }
+          - {
+              label: "OurTeam Worker 3 Name",
+              name: "ourTeamWorker3Name",
+              widget: "string",
+            }
+          - {
+              label: "OurTeam Worker 3 Position",
+              name: "ourTeamWorker3Position",
+              widget: "string",
+            }
+          - {
+              label: "OurTeam Worker 3 Sports Header",
+              name: "ourTeamWorker3SportsHeader",
+              widget: "string",
+            }
+          - {
+              label: "OurTeam Worker 3 Sports Image",
+              name: "ourTeamWorker3SportsImage",
+              widget: "image",
+            }
+          - {
+              label: "OurTeam Worker 3 Sports Name",
+              name: "ourTeamWorker3SportsName",
+              widget: "string",
+            }
+          - {
+              label: "OurTeam Worker 4 Image",
+              name: "ourTeamWorker4Image",
+              widget: "image",
+            }
+          - {
+              label: "OurTeam Worker 4 Name",
+              name: "ourTeamWorker4Name",
+              widget: "string",
+            }
+          - {
+              label: "OurTeam Worker 4 Position",
+              name: "ourTeamWorker4Position",
+              widget: "string",
+            }
+          - {
+              label: "OurTeam Worker 4 Sports Header",
+              name: "ourTeamWorker4SportsHeader",
+              widget: "string",
+            }
+          - {
+              label: "OurTeam Worker 4 Sports Image",
+              name: "ourTeamWorker4SportsImage",
+              widget: "image",
+            }
+          - {
+              label: "OurTeam Worker 4 Sports Name",
+              name: "ourTeamWorker4SportsName",
+              widget: "string",
+            }
+          - {
+              label: "OurTeam Worker 5 Image",
+              name: "ourTeamWorker5Image",
+              widget: "image",
+            }
+          - {
+              label: "OurTeam Worker 5 Name",
+              name: "ourTeamWorker5Name",
+              widget: "string",
+            }
+          - {
+              label: "OurTeam Worker 5 Position",
+              name: "ourTeamWorker5Position",
+              widget: "string",
+            }
+          - {
+              label: "OurTeam Worker 5 Sports Header",
+              name: "ourTeamWorker5SportsHeader",
+              widget: "string",
+            }
+          - {
+              label: "OurTeam Worker 5 Sports Image",
+              name: "ourTeamWorker5SportsImage",
+              widget: "image",
+            }
+          - {
+              label: "OurTeam Worker 5 Sports Name",
+              name: "ourTeamWorker5SportsName",
+              widget: "string",
+            }
       - label: "BannerBg"
         name: "bannerBg"
         widget: "object"
-        summary: 'BannerBg'
+        summary: "BannerBg"
         fields:
-          - {label: "BannerBg Quote", name: "bannerBgQuote", widget: "string"}
-          - {label: "BannerBg Name", name: "bannerBgName", widget: "string"}
-          - {label: "BannerBg Position", name: "bannerBgPosition", widget: "string"}
+          - { label: "BannerBg Quote", name: "bannerBgQuote", widget: "string" }
+          - { label: "BannerBg Name", name: "bannerBgName", widget: "string" }
+          - {
+              label: "BannerBg Position",
+              name: "bannerBgPosition",
+              widget: "string",
+            }
