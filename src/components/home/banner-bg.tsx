@@ -2,7 +2,7 @@ import React from "react";
 import "styles/home/banner-bg.css";
 // markdown
 // @ts-ignore
-import BannerBGMd from "cms/bannerbg/bannerbg.md";
+import BannerbgMD from "cms/bannerbg/bannerbg.md";
 const BannerBg = () => {
   const [markdownObject, setMarkdownObject] = React.useState({
     // bannerBg
@@ -11,8 +11,8 @@ const BannerBg = () => {
     bannerBgPosition: "",
   });
   React.useEffect(() => {
-    const mdString = String(BannerBGMd)
-      .substring(4, String(BannerBGMd).length - 4)
+    const mdString = String(BannerbgMD)
+      .substring(4, String(BannerbgMD).length - 4)
       .split("\n")
       .join(", ");
     const _mdString = mdString.substring(0, mdString.length - 2);
