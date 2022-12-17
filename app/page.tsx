@@ -13,32 +13,32 @@ import {
 
 // markdown
 // @ts-ignore
-import homeMd from "cms/cms-home/home.md";
+import homeMd from "cms/home/home.md";
 
 const HomePage = () => {
   const [markdownObject, setMarkdownObject] = useState({
     // header
-    headerTitleWithLogoColor: "",
-    headerTitleWithWhiteColor: "",
-    headerComingSoon: "",
-    headerImage: "",
+    // headerTitleWithLogoColor: "",
+    // headerTitleWithWhiteColor: "",
+    // headerComingSoon: "",
+    // headerImage: "",
 
     // works
-    worksTitleWe: "",
-    worksTitleWithLogoColor: "",
-    worksTitleWithWhiteColor: "",
-    worksImage1: "",
-    worksImage1Name: "",
-    worksImage1Position: "",
-    worksImage1Skill: "",
-    worksImage2: "",
-    worksImage2Name: "",
-    worksImage2Position: "",
-    worksImage2Skill: "",
-    worksImage3: "",
-    worksImage3Name: "",
-    worksImage3Position: "",
-    worksImage3Skill: "",
+    // worksTitleWe: "",
+    // worksTitleWithLogoColor: "",
+    // worksTitleWithWhiteColor: "",
+    // worksImage1: "",
+    // worksImage1Name: "",
+    // worksImage1Position: "",
+    // worksImage1Skill: "",
+    // worksImage2: "",
+    // worksImage2Name: "",
+    // worksImage2Position: "",
+    // worksImage2Skill: "",
+    // worksImage3: "",
+    // worksImage3Name: "",
+    // worksImage3Position: "",
+    // worksImage3Skill: "",
 
     // bannerBg
     bannerBgQuote: "",
