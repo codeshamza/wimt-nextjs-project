@@ -13,15 +13,15 @@ import {
 
 // markdown
 // @ts-ignore
-import homeMd from "cms/home/home.md";
+import homeMd from "cms/cms-home/home.md";
 
 const HomePage = () => {
   const [markdownObject, setMarkdownObject] = useState({
     // header
-    // headerTitleWithLogoColor: "",
-    // headerTitleWithWhiteColor: "",
-    // headerComingSoon: "",
-    // headerImage: "",
+    headerTitleWithLogoColor: "Shaking up",
+    headerTitleWithWhiteColor: "community building & sport financing",
+    headerComingSoon: "coming soon",
+    headerImage: "/upload/images/top-header-img.svg",
 
     // works
     // worksTitleWe: "",
