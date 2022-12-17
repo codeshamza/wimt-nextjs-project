@@ -1,33 +1,7 @@
 import React from "react";
 import "styles/home/banner-bg.css";
-// markdown
-// @ts-ignore
-import BannerbgMD from "cms/bannerbg/bannerbg.md";
-const BannerBg = () => {
-  const [markdownObject, setMarkdownObject] = React.useState({
-    // bannerBg
-    bannerBgQuote: "",
-    bannerBgName: "",
-    bannerBgPosition: "",
-  });
-  React.useEffect(() => {
-    const mdString = String(BannerbgMD)
-      .substring(4, String(BannerbgMD).length - 4)
-      .split("\n")
-      .join(", ");
-    const _mdString = mdString.substring(0, mdString.length - 2);
-  
-    // console.log(_mdString)
-  
-    const mdObj = _mdString.split(", ").reduce((acc: any, cur) => {
-      const [key, value] = cur.split(": ");
-      acc[key.trim()] = value;
-      return acc;
-    }, {});
-  
-    setMarkdownObject(mdObj);
-    // console.log(mdObj);
-  }, []);
+
+const BannerBg = ({ markdownObject }: any) => {
   return (
     <div className="banner-bg">
       <div>

@@ -14,7 +14,6 @@ import {
 // markdown
 // @ts-ignore
 import homeMd from "cms/home/home.md";
-console.log(homeMd);
 
 
 const HomePage = () => {
@@ -43,9 +42,9 @@ const HomePage = () => {
     worksImage3Skill: "",
 
     // bannerBg
-    // bannerBgQuote: "",
-    // bannerBgName: "",
-    // bannerBgPosition: "",
+    bannerBgQuote: "",
+    bannerBgName: "",
+    bannerBgPosition: "",
 
     // brainsBehind
     brainsBehindTitleWithLogoColor: "",
@@ -113,7 +112,7 @@ const HomePage = () => {
     <div className="homePage">
       <Header markdownObject={markdownObject} />
       <Works markdownObject={markdownObject} />
-      <BannerBg />
+      <BannerBg markdownObject={markdownObject} />
       <BrainsBehind markdownObject={markdownObject} />
       <SponsorApply markdownObject={markdownObject} />
       <EarlyAdopters markdownObject={markdownObject} />
