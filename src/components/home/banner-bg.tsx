@@ -1,8 +1,8 @@
 import React from "react";
 import "styles/home/banner-bg.css";
-
-import BannerBGMd from "cms/BannerBG/BannerBG.md";
-console.log(BannerBGMd);
+// markdown
+// @ts-ignore
+import BannerBGMd from "./cms/bannerbg/bannerbg.md";
 
 
 
