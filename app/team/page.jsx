@@ -587,12 +587,7 @@ const TeamPage = () => {
 				<img src={markdownObject.ourTeamWorker3Image} alt=""/>
         <div className="worker">
             <div className="worker_details">
-            <div className="worker_details">
             <h1 className="worker-name">{markdownObject.ourTeamWorker3Name}</h1>
-            <Link href="#">
-            <img src="/images/team/Linkedin.svg" alt="" />
-            </Link>
-            </div>
             <Link href="#">
             <img src="/images/team/Linkedin.svg" alt="" />
             </Link>
