@@ -43,9 +43,9 @@ const HomePage = () => {
     worksImage3Skill: "",
 
     // bannerBg
-    bannerBgQuote: "",
-    bannerBgName: "",
-    bannerBgPosition: "",
+    // bannerBgQuote: "",
+    // bannerBgName: "",
+    // bannerBgPosition: "",
 
     // brainsBehind
     brainsBehindTitleWithLogoColor: "",
