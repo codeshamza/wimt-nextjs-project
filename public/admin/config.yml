@@ -65,12 +65,14 @@ collections:
           - { label: "Right Text 2", name: "rightText2", widget: "string" }
   - name: "sponsor"
     label: "Sponsor"
-    folder: "src/cms/home"
+    folder: "src/cms/sponsor"
     create: false
     slug: "sponsor"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-    
+      - { label: "Content", name: "content", widget: "string" }
+      - { label: "Button", name: "button", widget: "string" }
+      
   - name: "home"
     label: "Home"
     folder: "src/cms/home"
