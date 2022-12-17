@@ -10,40 +10,6 @@ import Link from "next/link";
 
 const TeamPage = () => {
   const [activeTab, setActiveTab] = React.useState(1);
-  let Tab1 =  document.getElementById("Tab1Items");
-  let Tab2 =  document.getElementById("Tab2Items");
-  let Tab3 =  document.getElementById("Tab3Items");
-
-    // setTimeout(()=>{
-    //   let Tab1 =  document.getElementById("Tab1Items");
-    //   let Tab2 =  document.getElementById("Tab2Items");
-    //   let Tab3 =  document.getElementById("Tab3Items");
-    //   // Tab1.style.display = "flex";
-    //   // Tab2.style.display = "none";
-    //   // Tab3.style.display = "none";
-    // },100)
-    
-  // const Tab1Function = () =>{
-  //   setActiveTab(1)
-  //  Tab1.style.display = "flex";
-  //  Tab2.style.display = "none";
-  //  Tab3.style.display = "none";
-
-  // }
-  // const Tab2Function = () =>{
-  //   setActiveTab(2)
-  //  Tab2.style.display = "flex";
-  //  Tab1.style.display = "none";
-  //  Tab3.style.display = "none";
-
-  // }
-  // const Tab3Function = () =>{
-  //   setActiveTab(3)
-  //  Tab3.style.display = "flex";
-  //  Tab2.style.display = "none";
-  //  Tab1.style.display = "none";
-
-  // }
   const [markdownObject, setMarkdownObject] = useState({
     headerTitleWithWhiteColor1: "The",
     headerTitleWithLogoColor: "Winning",
@@ -146,7 +112,7 @@ const TeamPage = () => {
                 backgroundColor: activeTab === 1 ? "#d96a2c" : "transparent",
                 color: activeTab === 1 ? "#fff" : "#999",
               }}
-              onClick={Tab1Function}
+              onClick={()=>setActiveTab(1) }
             >
               {markdownObject.ourTeamHeaderBtn1}
             </button>
@@ -156,7 +122,7 @@ const TeamPage = () => {
                 backgroundColor: activeTab === 2 ? "#d96a2c" : "transparent",
                 color: activeTab === 2 ? "#fff" : "#999",
               }}
-              onClick={Tab2Function}
+              onClick={()=>setActiveTab(2) }
             >
               {markdownObject.ourTeamHeaderBtn2}
             </button>
@@ -166,7 +132,7 @@ const TeamPage = () => {
                 backgroundColor: activeTab === 3 ? "#d96a2c" : "transparent",
                 color: activeTab === 3 ? "#fff" : "#999",
               }}
-              onClick={Tab3Function}
+              onClick={()=>setActiveTab(3) }
             >
               {markdownObject.ourTeamHeaderBtn3}
             </button>
@@ -174,7 +140,9 @@ const TeamPage = () => {
           <br />
         </div>
 
-        <div id="Tab1Items" className="workers-pages-1">
+        <div id="Tab1Items"  style={{
+               display : activeTab === 1 ? "flex" : "none",
+              }}    className="workers-pages-1">
           <div className="worker">
             <img src={markdownObject.ourTeamWorker1Image} alt="" />
             <div className="worker_details">
@@ -236,8 +204,9 @@ const TeamPage = () => {
           </div>
         </div>
 
-        <br />
-        <div id="Tab2Items" className="workers-pages-1">
+        <div id="Tab2Items" style={{
+               display : activeTab === 2 ? "flex" : "none",
+              }}  className="workers-pages-1">
           <div className="worker">
             <img src={markdownObject.ourTeamWorker4Image} alt="" />
             <h1 className="worker-name">{markdownObject.ourTeamWorker4Name}</h1>
@@ -267,7 +236,9 @@ const TeamPage = () => {
           <div className="worker"></div>
         </div>
 
-        <div id="Tab3Items" className="workers-pages-1">
+        <div id="Tab3Items" style={{
+               display : activeTab === 3 ? "flex" : "none",
+              }} className="workers-pages-1">
           <div className="worker">
             <img src={markdownObject.ourTeamWorker3Image} alt="" />
             <div className="worker_details">
