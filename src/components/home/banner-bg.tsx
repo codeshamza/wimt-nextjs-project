@@ -2,7 +2,7 @@ import React from "react";
 import "styles/home/banner-bg.css";
 // markdown
 // @ts-ignore
-import BannerBGMd from "./cms/bannerbg/bannerbg.md";
+import BannerBGMd from "cms/bannerbg/bannerbg.md";
 
 
 
