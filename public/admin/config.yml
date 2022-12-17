@@ -65,23 +65,13 @@ collections:
           - {label: "Right Text 2", name: "rightText2", widget: "string"}
   - name: "sponsor"
     label: "Sponsor"
-    folder: "src/cms/sponsor"
+    folder: "src/cms/footer"
     create: false
     slug: "sponsor"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Content", name: "content", widget: "string"}
       - {label: "Button", name: "button", widget: "string"}
-        - name: "BannerBG"
-    label: "BannerBG"
-    folder: "src/cms/BannerBG"
-    create: false
-    slug: "BannerBG"
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Content", name: "bannerBgQuote", widget: "string"}
-      - {label: "Content", name: "bannerBgName", widget: "string"}
-      - {label: "Content", name: "bannerBgPosition", widget: "string"}
   - name: "home"
     label: "Home"
     folder: "src/cms/home"
