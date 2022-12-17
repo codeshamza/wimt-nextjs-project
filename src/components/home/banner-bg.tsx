@@ -3,13 +3,7 @@ import "styles/home/banner-bg.css";
 // markdown
 // @ts-ignore
 import BannerBGMd from "cms/bannerbg/bannerbg.md";
-
-
-
-
-
-
-const BannerBg = ({  }: any) => {
+const BannerBg = () => {
   const [markdownObject, setMarkdownObject] = React.useState({
     // bannerBg
     bannerBgQuote: "",
