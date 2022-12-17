@@ -353,3 +353,54 @@ flex: 50%;
   margin: 0;
 }
   }
+  @media screen and (max-width: 600px){
+    .teampage-pc{
+      display: none !important;
+    }
+  }
+  @media screen and (min-width: 600px){
+    .teampage-mobile{
+      display: none !important;
+    }
+  }
+  .splide__slide img {
+    width: inherit;
+    height: auto;
+  }
+  
+  .splide__pagination {
+    display: none !important;
+    bottom: 0.5em;
+    left: 0;
+    padding: 0 1em;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+  }
+  .splide__arrow {
+    background: rgb(255, 145, 0) !important;
+    color: white !important;
+  }
+  .splide__arrow svg {
+    fill: rgb(255, 255, 255) !important;
+    height: 1.2em;
+    width: 1.2em;
+  }
+  
+  .work-con .splide__arrow {
+    top: 38% !important;
+  }
+  .homePage .works-content .line3-full img {
+    width: 20px;
+  }
+
+  #image-carousel3 .splide__arrow {
+    top: 27% !important;
+  }
+  #image-carousel4 .splide__arrow {
+    top: 27% !important;
+  }
+  #image-carousel5 .splide__arrow {
+    top: 27% !important;
+  }
+  
