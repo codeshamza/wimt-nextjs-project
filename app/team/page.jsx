@@ -226,7 +226,12 @@ const TeamPage = () => {
               }}  className="workers-pages-1">
           <div className="worker">
             <img src={markdownObject.ourTeamWorker4Image} alt="" />
+            <div className="worker_details">
             <h1 className="worker-name">{markdownObject.ourTeamWorker4Name}</h1>
+            <Link href="#">
+            <img src="/images/team/Linkedin.svg" alt="" />
+            </Link>
+            </div>
             <div className="work-name">
               <p>{markdownObject.ourTeamWorker4Position}</p>
             </div>
@@ -239,7 +244,12 @@ const TeamPage = () => {
           </div>
           <div className="worker">
             <img src={markdownObject.ourTeamWorker5Image} alt="" />
+            <div className="worker_details">
             <h1 className="worker-name">{markdownObject.ourTeamWorker5Name}</h1>
+            <Link href="#">
+            <img src="/images/team/Linkedin.svg" alt="" />
+            </Link>
+            </div>
             <div className="work-name">
               <p>{markdownObject.ourTeamWorker5Position}</p>
             </div>
@@ -483,7 +493,12 @@ const TeamPage = () => {
 			<li class="splide__slide">
 				<img src={markdownObject.ourTeamWorker4Image} alt=""/>
         <div className="worker">
+        <div className="worker_details">
             <h1 className="worker-name">{markdownObject.ourTeamWorker4Name}</h1>
+            <Link href="#">
+            <img src="/images/team/Linkedin.svg" alt="" />
+            </Link>
+            </div>
             <div className="work-name">
               <p>{markdownObject.ourTeamWorker4Position}</p>
             </div>
@@ -498,7 +513,12 @@ const TeamPage = () => {
 			<li class="splide__slide">
 				<img src={markdownObject.ourTeamWorker5Image} alt=""/>
         <div className="worker">
+        <div className="worker_details">
             <h1 className="worker-name">{markdownObject.ourTeamWorker5Name}</h1>
+            <Link href="#">
+            <img src="/images/team/Linkedin.svg" alt="" />
+            </Link>
+            </div>
             <div className="work-name">
               <p>{markdownObject.ourTeamWorker5Position}</p>
             </div>
@@ -526,7 +546,12 @@ const TeamPage = () => {
 			<li class="splide__slide">
 				<img src={markdownObject.ourTeamWorker4Image} alt=""/>
         <div className="worker">
+        <div className="worker_details">
             <h1 className="worker-name">{markdownObject.ourTeamWorker4Name}</h1>
+            <Link href="#">
+            <img src="/images/team/Linkedin.svg" alt="" />
+            </Link>
+            </div>
             <div className="work-name">
               <p>{markdownObject.ourTeamWorker4Position}</p>
             </div>
@@ -541,7 +566,12 @@ const TeamPage = () => {
 			<li class="splide__slide">
 				<img src={markdownObject.ourTeamWorker5Image} alt=""/>
         <div className="worker">
+        <div className="worker_details">
             <h1 className="worker-name">{markdownObject.ourTeamWorker5Name}</h1>
+            <Link href="#">
+            <img src="/images/team/Linkedin.svg" alt="" />
+            </Link>
+            </div>
             <div className="work-name">
               <p>{markdownObject.ourTeamWorker5Position}</p>
             </div>
@@ -557,7 +587,12 @@ const TeamPage = () => {
 				<img src={markdownObject.ourTeamWorker3Image} alt=""/>
         <div className="worker">
             <div className="worker_details">
+            <div className="worker_details">
             <h1 className="worker-name">{markdownObject.ourTeamWorker3Name}</h1>
+            <Link href="#">
+            <img src="/images/team/Linkedin.svg" alt="" />
+            </Link>
+            </div>
             <Link href="#">
             <img src="/images/team/Linkedin.svg" alt="" />
             </Link>
