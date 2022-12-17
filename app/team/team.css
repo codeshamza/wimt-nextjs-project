@@ -82,8 +82,10 @@
 .teamPage .our-team-header-btn1 {
   background-color: #d96a2c;
   font-weight: 400;
+
   font-size: 24px;
   color: #fff;
+  min-width: 110px;
   padding: 8px 20px;
   height: 45px;
   border-radius: 8px;
@@ -91,6 +93,8 @@
 }
 .teamPage .our-team-header-btn2 {
   background-color: transparent;
+  min-width: 100px;
+
   font-weight: 400;
   font-size: 24px;
   color: #999;
@@ -102,6 +106,8 @@
 }
 .teamPage .our-team-header-btn3 {
   background-color: transparent;
+  min-width: 160px;
+
   font-weight: 400;
   font-size: 24px;
   color: #999;
@@ -262,8 +268,10 @@
     margin-bottom: 50px;
   }
   .teamPage .our-team-header-btns {
+    column-gap: 0 !important;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    overflow-x: scroll;
   }
   .teamPage .workers-pages-1,
   .teamPage .workers-pages-2 {
