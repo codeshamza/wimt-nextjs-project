@@ -113,7 +113,7 @@ const HomePage = () => {
     <div className="homePage">
       <Header markdownObject={markdownObject} />
       <Works markdownObject={markdownObject} />
-      <BannerBg markdownObject={markdownObject} />
+      <BannerBg />
       <BrainsBehind markdownObject={markdownObject} />
       <SponsorApply markdownObject={markdownObject} />
       <EarlyAdopters markdownObject={markdownObject} />
