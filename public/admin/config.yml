@@ -74,7 +74,7 @@ collections:
       - {label: "Button", name: "button", widget: "string"}
   - name: "home"
     label: "Home"
-    folder: "src/cms/home/home.md"
+    folder: "src/cms/web-home"
     create: false
     slug: "home"
     fields:

@@ -22,7 +22,7 @@ works:
   worksImage3: /upload/images/people-img-3.svg
   worksTitleWithLogoColor: believe
 bannerBg:
-  bannerBgQuote: 'We focus on a safe and inspiring digital environment,with groundbreaking income sources for athletes and clubs.We are creating a new universe for every sports fan on the planet"
+  bannerBgQuote: "We focus on a safe and inspiring digital environment,with groundbreaking income sources for athletes and clubs.We are creating a new universe for every sports fan on the planet"
   bannerBgName: Sebastian Lundgren
   bannerBgPosition: CEO at Winning Impact AB
 brainsBehind:
@@ -54,7 +54,7 @@ sponsorApply:
 earlyAdopters:
   earlyAdoptersAdopterTitle3Info1: Billdal is one of the leading horse clubs in Sweden with over 1,000 members.
   earlyAdoptersAdopterTitle2Info1: With over 4,000 members, 3 high end courses and 1 multi course, Öijared is one of the best golf courses in Sweden.
-  earlyAdoptersAdopterTitle3Info2:"For those of us who are working with children and young people, it is very important to create a safe and inspiring environment. That’s exactly what WIMT is doing. The platform is also saving time for the communication team, and generates revenue, which is a nice bonus."
+  earlyAdoptersAdopterTitle3Info2: "For those of us who are working with children and young people, it is very important to create a safe and inspiring environment. That’s exactly what WIMT is doing. The platform is also saving time for the communication team, and generates revenue, which is a nice bonus."
   earlyAdoptersAdopterTitle2Info2: "It is very important for Swedish sport clubs to gain increased income, potentially a life saving solution for many. This could play a major role in the future for us and for many other golf clubs."
   earlyAdoptersAdopterTitle1Position: Angelica Lindeberg, Commercial Manager
   earlyAdoptersAdopterTitle1Info1: The greatest women's hockey league in the world. Combines 10 of the largest hockey clubs in Sweden with over a million members and fans.
