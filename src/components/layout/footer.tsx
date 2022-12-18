@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import "styles/home/footer.css";
+import Link from "next/link";
 
 // markdown
 // @ts-ignore
@@ -48,14 +49,23 @@ const Footer = () => {
         <div className="co-footer-part2">
           <p className="co-footer-headers">Pages</p>
           <div className="co-footer-header-items">
+            <Link href="/">
             <p className="co-footer-paragraph">{markdownObject.page1}</p>
+            </Link>
+            <Link href="/team">
             <p className="co-footer-paragraph co-footer-header-items-peragraph-2">
               {markdownObject.page2}
             </p>
+            </Link>
+            <Link href="/sponsor" >
+          <p className="co-footer-paragraph co-footer-header-items-peragraph-2 mobile">{markdownObject.page3}</p>
+          </Link>
           </div>
         </div>
-        <div className="co-footer-part3">
-          <p className="co-footer-paragraph">{markdownObject.page3}</p>
+        <div className="co-footer-part3 pc">
+          <Link href="/sponsor" >
+          <p className="co-footer-paragraph ">{markdownObject.page3}</p>
+          </Link>
         </div>
         <div className="co-footer-part4">
           <p className="co-footer-headers">Contact</p>

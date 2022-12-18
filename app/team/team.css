@@ -365,11 +365,18 @@ flex: 50%;
     .teampage-pc{
       display: none !important;
     }
+    .pc{
+      display: none;
+    }
   }
   @media screen and (min-width: 600px){
     .teampage-mobile{
       display: none !important;
     }
+    .mobile{
+      display: none;
+    }
+  
   }
   .splide__slide img {
     width: inherit;
@@ -411,4 +418,13 @@ flex: 50%;
   #image-carousel5 .splide__arrow {
     top: 27% !important;
   }
-  
+  #image-carousel3 img:first-child {
+    border-radius: 12px;
+  }
+  #image-carousel4 img:first-child {
+    border-radius: 12px;
+  }  #image-carousel5 img:first-child {
+    border-radius: 12px;
+  }
+
+ 

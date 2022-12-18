@@ -98,6 +98,7 @@
 }
 }
 
+
 @media screen and (max-width: 590px) {
   .homePage .works-content .line1,
   .homePage .works-content .line2,
@@ -113,7 +114,12 @@
   .card-content{
     /* max-width: 100vw !important; */
   }
+  .homePage .works-content .card {
+
+    text-align: center;
 }
+}
+
 @media screen and (min-width: 590px) {
   #mobilework{
     display: none !important;
@@ -121,13 +127,11 @@
   .homePage .works-content .line3-full img {
     width: 50px;
   }
-.homePage .works-content .card {
 
-    text-align: center;
-}
 
 
 }
+
 
 @media screen and (max-width: 550px) {
   .homePage .works-header,
