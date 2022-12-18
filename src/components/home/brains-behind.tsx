@@ -23,7 +23,7 @@ const Item = ({ img, name, info1, info2, info3 }: any) => (
         <p className="brains-behind-cards-peragraph">{info3}</p>
       </div>
     </div>
-  </div>
+  </div> 
 );
 
 const BrainsBehind = ({ markdownObject }: any) => {
@@ -82,9 +82,7 @@ const BrainsBehind = ({ markdownObject }: any) => {
           </span>{" "}
           {markdownObject.brainsBehindTitleWithWhiteColor}
         </h1>
-        <Link href="/team">
-        <button className="brains-behind-header-btn">Meet the full team</button>
-        </Link>
+        
       </section>
 
       {/* content */}
@@ -123,9 +121,15 @@ const BrainsBehind = ({ markdownObject }: any) => {
           />
       
 			</li>
+   
 		</ul>
+  
   </div>
+    
         </section>
+        <Link href="/team">
+        <button style={{minWidth: "90vw",fontSize:"14px !important",marginTop:"10px"}} className="brains-behind-header-btn sm">Meet the full team</button>
+        </Link>
       
    
         </div>
