@@ -120,12 +120,14 @@ const BrainsBehind = ({ markdownObject }: any) => {
           />
       
 			</li>
+
 		</ul>
+    <Link href="/team">
+        <button style={{width:"100%",marginTop:"20px"}} className="brains-behind-header-btn">Meet the full team</button>
+        </Link>
   
   </div>
-  <Link href="/team">
-        <button style={{minWidth:"81vw",marginTop:"20px"}} className="brains-behind-header-btn">Meet the full team</button>
-        </Link>
+
     
         </section>
 
