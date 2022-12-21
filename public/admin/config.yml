@@ -155,7 +155,7 @@ collections:
         widget: "object"
         summary: 'EarlyAdopters'
         fields:
-            - {label: "EarlyAdopters Title with white color", name: "earlyAdoptersTitleWithWhiteColor", widget: "string"}
+          - {label: "EarlyAdopters Title with white color", name: "earlyAdoptersTitleWithWhiteColor", widget: "string"}
           - {label: "EarlyAdopters Title with logo color", name: "earlyAdoptersTitleWithLogoColor", widget: "string"}
           - {label: "EarlyAdopters Adopter Title 1", name: "earlyAdoptersAdopterTitle1", widget: "string"}
           - {label: "EarlyAdopters Adopter Title 1 info 1", name: "earlyAdoptersAdopterTitle1Info1", widget: "string"}

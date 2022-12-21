@@ -42,8 +42,7 @@ brainsBehind:
   bannerBgImage2Info2: Officially one of the brains behind Spotify
   bannerBgImage1Info2: Former national team player in water polo
   bannerBgImage2Info3: Member of the World Programming Committee
-  bannerBgImage1Info3: Trained and coached top athletes and influencers in Sweden on how
-  to be successful in the digital age
+  bannerBgImage1Info3: Trained and coached top athletes and influencers in Sweden on how to be successful in the digital age
 sponsorApply:
   sponsorApplyTitleWithWhiteColor1: Supported by the
   sponsorApplyTitleWithLogoColor: greatest sponsors
