@@ -16,3 +16,28 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.homePage{
+  overflow-x: hidden;
+}
+.splide__pagination__page {
+  background-color: #D96A2C  !important;
+  opacity: 0.3 !important;
+}
+.splide__pagination  .is-active{
+  background-color: #D96A2C !important;
+  opacity: 1 !important;
+
+}
+.splide__pagination li {
+  display: none !important;
+    }
+.splide__pagination li:nth-child(1) {
+  display: flex !important;
+    }
+    .splide__pagination li:nth-child(2) {
+      display: flex !important;
+        }
+        .splide__pagination li:nth-child(3) {
+          display: flex !important;
+            }

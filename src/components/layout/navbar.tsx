@@ -48,7 +48,7 @@ const Navbar = () => {
           <Link href="/">{markdownObject.navItem1}</Link>
         </li>
         <li className="navbar-items">
-          <Link href="/team">{markdownObject.navItem2}</Link>
+          <Link href="/[slug]" as="/team">{markdownObject.navItem2}</Link>
         </li>
         <li>
           <Link href="/sponsor">

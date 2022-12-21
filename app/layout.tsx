@@ -1,6 +1,5 @@
 import React from "react";
 import Footer from "components/layout/footer";
-import Navbar from "components/layout/navbar";
 import "assets/fonts/Stolzl/stylesheet.css";
 import "./globals.css";
 import "./home.css";
@@ -18,7 +17,6 @@ export default function RootLayout({
       */}
       <head />
       <body>
-        <Navbar />
         {children}
         <Footer />
       </body>

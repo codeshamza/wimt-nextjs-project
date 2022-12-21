@@ -87,7 +87,6 @@ const BrainsBehind = ({ markdownObject }: any) => {
 
       {/* content */}
       <section className="cards">
-        <div>
         <section id="image-carousel2" className="splide brains-con" aria-label="Beautiful Images">
   <div className="splide__track ">
 		<ul className="splide__list">
@@ -121,21 +120,23 @@ const BrainsBehind = ({ markdownObject }: any) => {
           />
       
 			</li>
-   
 		</ul>
   
   </div>
+  <Link href="/team">
+        <button style={{minWidth:"81vw",marginTop:"20px"}} className="brains-behind-header-btn">Meet the full team</button>
+        </Link>
     
         </section>
-        <Link href="/team">
-        <button style={{minWidth: "90vw",fontSize:"14px !important",marginTop:"10px"}} className="brains-behind-header-btn sm">Meet the full team</button>
-        </Link>
+
       
    
-        </div>
       </section>
+    
     </div>
+
     </div>
+
 
   );
 };

@@ -244,12 +244,18 @@ button{
 .homePage .brains-behind .cards img {
   border-radius: 10px;
 }
-
+.homePage .brains-behind .cards {
+  display: block;
+}
+.cards-content h1{
+  margin: 0px 0px 5px 0px ;
+}
 }
 @media screen and (min-width: 600px) {
   .brains-behind-mob{
     display: none !important;
   }
+
   
   }
 
@@ -257,18 +263,23 @@ button{
     height: auto;
   }
   
-  .splide__pagination {
+  .splide__pagination li {
     display: none !important;
-    bottom: 0.5em;
-    left: 0;
-    padding: 0 1em;
-    position: absolute;
-    right: 0;
-    z-index: 1;
-  }
+      }
+  .splide__pagination li:nth-child(1) {
+    display: flex !important;
+      }
+      .splide__pagination li:nth-child(2) {
+        display: flex !important;
+          }
+          .splide__pagination li:nth-child(3) {
+            display: flex !important;
+              }
   .splide__arrow {
     background: rgb(255, 145, 0) !important;
     color: white !important;
+    height: 35px !important;
+    width: 35px !important;
   }
   .splide__arrow svg {
     fill: rgb(255, 255, 255) !important;
@@ -277,7 +288,19 @@ button{
   }
   
   .brains-con .splide__arrow {
-    top: 28% !important;
+    top: 23% !important;
   }
-
+  .brains-con .splide__pagination {
+    top: 105% !important;
+  }
+  .splide__arrow--prev{
+    left: -22px !important;
+   }
+   .splide__arrow--next{
+    right: -20px !important;
+   }
+   .splide__arrow:disabled {
+    opacity: .7 !important;
+    background-color: #999 !important;
   
+  }

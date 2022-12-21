@@ -72,7 +72,7 @@
   font-weight: 400;
   font-size: 24px;
   border-top: 1px solid #999;
-  padding-top: 30px;
+  padding-top: 15px;
   color: #fff;
   /* width: 345px; */
 }
@@ -138,6 +138,18 @@
   opacity: 0.8;
 }
 /* } */
+.games p{
+  font-weight: 400;
+    color: #999 !important;
+    font-size: 20px;
+    margin: 10px 0;
+}
+.work-name p{
+  margin: 10px 0;
+}
+.favorite-sport{
+  margin-bottom: 0;
+}
 
 @media screen and (max-width: 1024px) {
   .teamPage .header-content {
@@ -204,11 +216,21 @@
   .teamPage .worker-name,
   .teamPage .work-name > p,
   .teamPage .favorite-sport {
-    font-size: 14px;
+    margin: 5px 0;
+    font-size: 17px;
   }
   .teamPage .header-content h1 {
     font-size: 25px;
   }
+  .work-name{
+    margin-bottom: 5px;
+  }
+.games p{
+  font-weight: 400;
+    color: #999 !important;
+    font-size: 16px;
+    margin: 12px 0;
+}
 }
 
 @media screen and (max-width: 500px) {
@@ -281,7 +303,7 @@
   .teamPage .worker {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     margin-bottom: 50px;
     width: 100%;
     flex: 33.3%;
@@ -290,11 +312,12 @@
     width: 100%;
   } */
   .teamPage .favorite-sport {
-    text-align: center;
+  min-width: 82vw;
+    text-align: left;
   }
   .teamPage .banner-bg {
     padding: 80px 24px;
-    /* margin-top: 50px; */
+    margin-top: 50px;
   }
 }
 
@@ -357,9 +380,7 @@ flex: 50%;
     margin-top: 12px;
     width: 98%;
 }
-.work-name{
-  margin: 0;
-}
+
   }
   @media screen and (max-width: 600px){
     .teampage-pc{
@@ -384,7 +405,6 @@ flex: 50%;
   }
   
   .splide__pagination {
-    display: none !important;
     bottom: 0.5em;
     left: 0;
     padding: 0 1em;
@@ -402,21 +422,25 @@ flex: 50%;
     width: 1.2em;
   }
   
-  .work-con .splide__arrow {
-    top: 38% !important;
-  }
+
   .homePage .works-content .line3-full img {
     width: 20px;
   }
 
   #image-carousel3 .splide__arrow {
-    top: 27% !important;
+    top: 26% !important;
+    height: 35px !important;
+    width: 35px !important;
   }
   #image-carousel4 .splide__arrow {
-    top: 27% !important;
+    top: 26% !important;
+    height: 35px !important;
+    width: 35px !important;
   }
   #image-carousel5 .splide__arrow {
-    top: 27% !important;
+    top: 26% !important;
+    height: 35px !important;
+    width: 35px !important;
   }
   #image-carousel3 img:first-child {
     border-radius: 12px;
@@ -427,4 +451,14 @@ flex: 50%;
     border-radius: 12px;
   }
 
- 
+ .splide__arrow--prev{
+  left: -22px !important;
+ }
+ .splide__arrow--next{
+  right: -20px !important;
+ }
+ .splide__arrow:disabled {
+  opacity: .7 !important;
+  background-color: #999 !important;
+
+}

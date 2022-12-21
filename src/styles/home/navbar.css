@@ -61,7 +61,7 @@ nav .menu-btn i {
   }
 
   nav ul {
-    position: fixed;
+    position: absolute;
     top: 60px;
     left: -100%;
     background-color: #181a20e3;

@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import "./team.css";
 import { Splide } from "@splidejs/splide";
 import '@splidejs/react-splide/css';
+import Navbar from "@/components/layout/navbar";
 
 // markdown
 // @ts-ignore
@@ -93,6 +94,7 @@ const TeamPage = () => {
 
   return (
      <> 
+     <Navbar/>
        <main className="teamPage teampage-pc">
       {/* <!-- HEADER - HEADER - HEADER - HEADER - HEADER - HEADER - HEADER - HEADER - HEADER - HEADER --> */}
       <section className="header">

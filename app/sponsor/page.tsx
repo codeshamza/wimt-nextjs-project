@@ -7,6 +7,7 @@ import "styles/sponsor/sponsors.css";
 // markdown
 // @ts-ignore
 import sponsorMd from "cms/sponsor/sponsor.md";
+import Navbar from "@/components/layout/navbar";
 
 const SponsorPage = () => {
   const [markdownObject, setMarkdownObject] = useState({
@@ -33,6 +34,8 @@ const SponsorPage = () => {
   // console.log(markdownObject);
 
   return (
+    <> 
+    <Navbar/>
     <div className="sponsorPage">
       <div className="sponsorPage_box">
         <h1 className="box1-line1">Sponsors</h1>
@@ -56,6 +59,8 @@ const SponsorPage = () => {
         <button className="box2-btn">{markdownObject.button}</button>
       </div>
     </div>
+    </>
+
   );
 };
 

@@ -10,8 +10,8 @@ const Worker = ({ img, name, position, icon, skill }) => (
     <img src={img || ""} alt="" />
     <div className="card-content">
       <p className="line1">{name}</p>
-      <p className="line2">{position}</p>
-      <div className="card-content-border-line"></div>
+      <p className="line3">{position}</p>
+      <div className="card-content-border-line" ></div>
       <div className="line3-full">
         <img src={icon} alt="icon" />
         <p className="line3">{skill}</p>
@@ -22,7 +22,9 @@ const Worker = ({ img, name, position, icon, skill }) => (
 
 const Works = ({ markdownObject }) => {
   React.useEffect(()=>{
-    new Splide( '#image-carousel' ).mount();
+    new Splide( '#image-carousel',{
+      pagination:true
+    } ).mount();
   })
   return (
     <>
@@ -80,7 +82,6 @@ const Works = ({ markdownObject }) => {
 
       {/* content */}
       <section className="works-content">
-        <div>
         <section id="image-carousel" class="splide work-con" aria-label="Beautiful Images">
   <div class="splide__track">
 		<ul class="splide__list">
@@ -115,7 +116,6 @@ const Works = ({ markdownObject }) => {
 		</ul>
   </div>
         </section>
-        </div>
       </section>
     </div>
     </>

@@ -1,7 +1,6 @@
 .homePage .works {
   font-family: "Stolzl";
   font-style: normal;
-  margin-top: 180px;
   background-image: url(/images/bg_element.png);
   background-repeat: no-repeat;
   background-position: left 68%;
@@ -18,10 +17,6 @@
 }
 .homePage .works-header-color-word {
   color: #d96a2c;
-}
-.homePage .works-content {
-  display: flex;
-  justify-content: center;
 }
 .homePage .works-content > div {
   display: flex;
@@ -40,6 +35,7 @@
   color: #fff;
 }
 .homePage .works-content .card-content-border-line {
+  min-width: 82vw;
   border-bottom: 1px solid #999;
 }
 .homePage .works-content .line3 {
@@ -103,9 +99,15 @@
   .homePage .works-content .line1,
   .homePage .works-content .line2,
   .homePage .works-content .line3 {
-    font-size: 12px;
+    font-size: 14px;
   }
   .homePage .works-content .card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 50px;
+    width: 100%;
+    flex: 33.3%;
     margin: 0px;
   }
   #workpc{
@@ -116,7 +118,7 @@
   }
   .homePage .works-content .card {
 
-    text-align: center;
+    text-align: left;
 }
 }
 
@@ -136,19 +138,23 @@
 @media screen and (max-width: 550px) {
   .homePage .works-header,
   .homePage .works-content {
-    padding: 0px 20px;
+    padding: 0px 10px;
   }
   .homePage .works-content .line1,
   .homePage .works-content .line2,
   .homePage .works-content .line3 {
-    font-size: 10px;
+    font-size: 12px;
   }
 
 }
 
 @media screen and (max-width: 425px) {
   .homePage .works-header {
-    padding: 0px 40px;
+    padding: 0px 20px;
+  }
+  .homePage .works-header,
+  .homePage .works-content {
+    padding: 0px 30px;
   }
   .homePage .works-content > div {
     flex-direction: column;
@@ -162,7 +168,7 @@
     font-size: 24px;
   }
 .homePage .works-content .line1, .homePage .works-content .line2, .homePage .works-content .line3 {
-    font-size: 13px;
+    font-size: 18px;
     margin: 0;
     text-align: left;
     
@@ -184,7 +190,6 @@
 }
 
 .splide__pagination {
-  display: none !important;
   bottom: 0.5em;
   left: 0;
   padding: 0 1em;
@@ -203,9 +208,15 @@
 }
 
 .work-con .splide__arrow {
-  top: 33% !important;
+  top: 30% !important;
+}
+.work-con .splide__pagination {
+  top: 105% !important;
 }
 .homePage .works-content .line3-full img {
   width: 20px;
 }
+
+/* =====Team CSS======= */
+
 
