@@ -232,7 +232,7 @@ collections:
           - {label: "OurTeam Worker 5 Sports Name", name: "ourTeamWorker5SportsName", widget: "string"}
           - {label: "OurTeam Worker 6 Image", name: "ourTeamWorker6Image", widget: "image"}
           - {label: "OurTeam Worker 6 Name", name: "ourTeamWorker6Name", widget: "string"}
-          - {label: "OurTeam Worker 6 Linkedin URL", name: "ourTeamWorker5URL", widget: "string"}
+          - {label: "OurTeam Worker 6 Linkedin URL", name: "ourTeamWorker6URL", widget: "string"}
           - {label: "OurTeam Worker 6 Position", name: "ourTeamWorker6Position", widget: "string"}
           - {label: "OurTeam Worker 6 Sports Header", name: "ourTeamWorker6SportsHeader", widget: "string"}
           - {label: "OurTeam Worker 6 Sports Image", name: "ourTeamWorker6SportsImage", widget: "image"}
