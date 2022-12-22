@@ -197,40 +197,109 @@ collections:
           - {label: "OurTeam Header Btn3", name: "ourTeamHeaderBtn3", widget: "string"}
           - {label: "OurTeam Worker 1 Image", name: "ourTeamWorker1Image", widget: "image"}
           - {label: "OurTeam Worker 1 Name", name: "ourTeamWorker1Name", widget: "string"}
+          - {label: "OurTeam Worker 1 Linkedin URL", name: "ourTeamWorker1URL", widget: "string"}
           - {label: "OurTeam Worker 1 Position", name: "ourTeamWorker1Position", widget: "string"}
           - {label: "OurTeam Worker 1 Sports Header", name: "ourTeamWorker1SportsHeader", widget: "string"}
           - {label: "OurTeam Worker 1 Sports Image", name: "ourTeamWorker1SportsImage", widget: "image"}
           - {label: "OurTeam Worker 1 Sports Name", name: "ourTeamWorker1SportsName", widget: "string"}
           - {label: "OurTeam Worker 2 Image", name: "ourTeamWorker2Image", widget: "image"}
           - {label: "OurTeam Worker 2 Name", name: "ourTeamWorker2Name", widget: "string"}
+          - {label: "OurTeam Worker 2 Linkedin URL", name: "ourTeamWorker2URL", widget: "string"}
           - {label: "OurTeam Worker 2 Position", name: "ourTeamWorker2Position", widget: "string"}
           - {label: "OurTeam Worker 2 Sports Header", name: "ourTeamWorker2SportsHeader", widget: "string"}
           - {label: "OurTeam Worker 2 Sports Image", name: "ourTeamWorker2SportsImage", widget: "image"}
           - {label: "OurTeam Worker 2 Sports Name", name: "ourTeamWorker2SportsName", widget: "string"}
           - {label: "OurTeam Worker 3 Image", name: "ourTeamWorker3Image", widget: "image"}
           - {label: "OurTeam Worker 3 Name", name: "ourTeamWorker3Name", widget: "string"}
+          - {label: "OurTeam Worker 3 Linkedin URL", name: "ourTeamWorker3URL", widget: "string"}
           - {label: "OurTeam Worker 3 Position", name: "ourTeamWorker3Position", widget: "string"}
           - {label: "OurTeam Worker 3 Sports Header", name: "ourTeamWorker3SportsHeader", widget: "string"}
           - {label: "OurTeam Worker 3 Sports Image", name: "ourTeamWorker3SportsImage", widget: "image"}
           - {label: "OurTeam Worker 3 Sports Name", name: "ourTeamWorker3SportsName", widget: "string"}
           - {label: "OurTeam Worker 4 Image", name: "ourTeamWorker4Image", widget: "image"}
           - {label: "OurTeam Worker 4 Name", name: "ourTeamWorker4Name", widget: "string"}
+          - {label: "OurTeam Worker 4 Linkedin URL", name: "ourTeamWorker4URL", widget: "string"}
           - {label: "OurTeam Worker 4 Position", name: "ourTeamWorker4Position", widget: "string"}
           - {label: "OurTeam Worker 4 Sports Header", name: "ourTeamWorker4SportsHeader", widget: "string"}
           - {label: "OurTeam Worker 4 Sports Image", name: "ourTeamWorker4SportsImage", widget: "image"}
           - {label: "OurTeam Worker 4 Sports Name", name: "ourTeamWorker4SportsName", widget: "string"}
           - {label: "OurTeam Worker 5 Image", name: "ourTeamWorker5Image", widget: "image"}
           - {label: "OurTeam Worker 5 Name", name: "ourTeamWorker5Name", widget: "string"}
+          - {label: "OurTeam Worker 5 Linkedin URL", name: "ourTeamWorker5URL", widget: "string"}
           - {label: "OurTeam Worker 5 Position", name: "ourTeamWorker5Position", widget: "string"}
           - {label: "OurTeam Worker 5 Sports Header", name: "ourTeamWorker5SportsHeader", widget: "string"}
           - {label: "OurTeam Worker 5 Sports Image", name: "ourTeamWorker5SportsImage", widget: "image"}
           - {label: "OurTeam Worker 5 Sports Name", name: "ourTeamWorker5SportsName", widget: "string"}
           - {label: "OurTeam Worker 6 Image", name: "ourTeamWorker6Image", widget: "image"}
           - {label: "OurTeam Worker 6 Name", name: "ourTeamWorker6Name", widget: "string"}
+          - {label: "OurTeam Worker 6 Linkedin URL", name: "ourTeamWorker5URL", widget: "string"}
           - {label: "OurTeam Worker 6 Position", name: "ourTeamWorker6Position", widget: "string"}
           - {label: "OurTeam Worker 6 Sports Header", name: "ourTeamWorker6SportsHeader", widget: "string"}
           - {label: "OurTeam Worker 6 Sports Image", name: "ourTeamWorker6SportsImage", widget: "image"}
           - {label: "OurTeam Worker 6 Sports Name", name: "ourTeamWorker6SportsName", widget: "string"}
+          - {label: "OurTeam Worker 7 Image", name: "ourTeamWorker7Image", widget: "image"}
+          - {label: "OurTeam Worker 7 Name", name: "ourTeamWorker7Name", widget: "string"}
+          - {label: "OurTeam Worker 7 Linkedin URL", name: "ourTeamWorker7URL", widget: "string"}
+          - {label: "OurTeam Worker 7 Position", name: "ourTeamWorker7Position", widget: "string"}
+          - {label: "OurTeam Worker 7 Sports Header", name: "ourTeamWorker7SportsHeader", widget: "string"}
+          - {label: "OurTeam Worker 7 Sports Image", name: "ourTeamWorker7SportsImage", widget: "image"}
+          - {label: "OurTeam Worker 7 Sports Name", name: "ourTeamWorker7SportsName", widget: "string"}
+          - {label: "OurTeam Worker 8 Image", name: "ourTeamWorker8Image", widget: "image"}
+          - {label: "OurTeam Worker 8 Name", name: "ourTeamWorker8Name", widget: "string"}
+          - {label: "OurTeam Worker 8 Linkedin URL", name: "ourTeamWorker8URL", widget: "string"}
+          - {label: "OurTeam Worker 8 Position", name: "ourTeamWorker8Position", widget: "string"}
+          - {label: "OurTeam Worker 8 Sports Header", name: "ourTeamWorker8SportsHeader", widget: "string"}
+          - {label: "OurTeam Worker 8 Sports Image", name: "ourTeamWorker8SportsImage", widget: "image"}
+          - {label: "OurTeam Worker 8 Sports Name", name: "ourTeamWorker8SportsName", widget: "string"}
+          - {label: "OurTeam Worker 9 Image", name: "ourTeamWorker9Image", widget: "image"}
+          - {label: "OurTeam Worker 9 Name", name: "ourTeamWorker9Name", widget: "string"}
+          - {label: "OurTeam Worker 9 Linkedin URL", name: "ourTeamWorker9URL", widget: "string"}
+          - {label: "OurTeam Worker 9 Position", name: "ourTeamWorker9Position", widget: "string"}
+          - {label: "OurTeam Worker 9 Sports Header", name: "ourTeamWorker9SportsHeader", widget: "string"}
+          - {label: "OurTeam Worker 9 Sports Image", name: "ourTeamWorker9SportsImage", widget: "image"}
+          - {label: "OurTeam Worker 9 Sports Name", name: "ourTeamWorker9SportsName", widget: "string"}
+          - {label: "OurTeam Worker 10 Image", name: "ourTeamWorker10Image", widget: "image"}
+          - {label: "OurTeam Worker 10 Name", name: "ourTeamWorker10Name", widget: "string"}
+          - {label: "OurTeam Worker 10 Linkedin URL", name: "ourTeamWorker10URL", widget: "string"}
+          - {label: "OurTeam Worker 10 Position", name: "ourTeamWorker10Position", widget: "string"}
+          - {label: "OurTeam Worker 10 Sports Header", name: "ourTeamWorker10SportsHeader", widget: "string"}
+          - {label: "OurTeam Worker 10 Sports Image", name: "ourTeamWorker10SportsImage", widget: "image"}
+          - {label: "OurTeam Worker 10 Sports Name", name: "ourTeamWorker10SportsName", widget: "string"}
+          - {label: "OurTeam Worker 11 Image", name: "ourTeamWorker11Image", widget: "image"}
+          - {label: "OurTeam Worker 11 Name", name: "ourTeamWorker11Name", widget: "string"}
+          - {label: "OurTeam Worker 11 Linkedin URL", name: "ourTeamWorker11RL", widget: "string"}
+          - {label: "OurTeam Worker 11 Position", name: "ourTeamWorker11Position", widget: "string"}
+          - {label: "OurTeam Worker 11 Sports Header", name: "ourTeamWorker11SportsHeader", widget: "string"}
+          - {label: "OurTeam Worker 11 Sports Image", name: "ourTeamWorker11SportsImage", widget: "image"}
+          - {label: "OurTeam Worker 11 Sports Name", name: "ourTeamWorker11SportsName", widget: "string"}
+          - {label: "OurTeam Worker 12 Image", name: "ourTeamWorker12Image", widget: "image"}
+          - {label: "OurTeam Worker 12 Name", name: "ourTeamWorker12Name", widget: "string"}
+          - {label: "OurTeam Worker 12 Linkedin URL", name: "ourTeamWorker12URL", widget: "string"}
+          - {label: "OurTeam Worker 12 Position", name: "ourTeamWorker12Position", widget: "string"}
+          - {label: "OurTeam Worker 12 Sports Header", name: "ourTeamWorker12SportsHeader", widget: "string"}
+          - {label: "OurTeam Worker 12 Sports Image", name: "ourTeamWorker12SportsImage", widget: "image"}
+          - {label: "OurTeam Worker 12 Sports Name", name: "ourTeamWorker12SportsName", widget: "string"}
+          - {label: "OurTeam Worker 13 Image", name: "ourTeamWorker13Image", widget: "image"}
+          - {label: "OurTeam Worker 13 Name", name: "ourTeamWorker13Name", widget: "string"}
+          - {label: "OurTeam Worker 13 Linkedin URL", name: "ourTeamWorker13URL", widget: "string"}
+          - {label: "OurTeam Worker 13 Position", name: "ourTeamWorker13Position", widget: "string"}
+          - {label: "OurTeam Worker 13 Sports Header", name: "ourTeamWorker13SportsHeader", widget: "string"}
+          - {label: "OurTeam Worker 13 Sports Image", name: "ourTeamWorker13SportsImage", widget: "image"}
+          - {label: "OurTeam Worker 13 Sports Name", name: "ourTeamWorker13SportsName", widget: "string"}
+          - {label: "OurTeam Worker 14 Image", name: "ourTeamWorker14Image", widget: "image"}
+          - {label: "OurTeam Worker 14 Name", name: "ourTeamWorker14Name", widget: "string"}
+          - {label: "OurTeam Worker 14 Linkedin URL", name: "ourTeamWorker14URL", widget: "string"}
+          - {label: "OurTeam Worker 14 Position", name: "ourTeamWorker14Position", widget: "string"}
+          - {label: "OurTeam Worker 14 Sports Header", name: "ourTeamWorker14SportsHeader", widget: "string"}
+          - {label: "OurTeam Worker 14 Sports Image", name: "ourTeamWorker14SportsImage", widget: "image"}
+          - {label: "OurTeam Worker 14 Sports Name", name: "ourTeamWorker14SportsName", widget: "string"}
+          - {label: "OurTeam Worker 15 Image", name: "ourTeamWorker15Image", widget: "image"}
+          - {label: "OurTeam Worker 15 Name", name: "ourTeamWorker15Name", widget: "string"}
+          - {label: "OurTeam Worker 15 Linkedin URL", name: "ourTeamWorker15URL", widget: "string"}
+          - {label: "OurTeam Worker 15 Position", name: "ourTeamWorker15Position", widget: "string"}
+          - {label: "OurTeam Worker 15 Sports Header", name: "ourTeamWorker15SportsHeader", widget: "string"}
+          - {label: "OurTeam Worker 15 Sports Image", name: "ourTeamWorker15SportsImage", widget: "image"}
+          - {label: "OurTeam Worker 15 Sports Name", name: "ourTeamWorker15SportsName", widget: "string"}
       - label: "BannerBg"
         name: "bannerBg"
         widget: "object"
