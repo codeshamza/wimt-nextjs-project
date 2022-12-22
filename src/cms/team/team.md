@@ -9,7 +9,7 @@ header:
   headerImage: /upload/images/top-header-img-team.svg
 ourTeam:
   ourTeamWorker6URL: https://www.example.com
-  ourTeamWorker11RL: lklk
+  ourTeamWorker11RL: https://www.example.com
   ourTeamWorker5URL: https://www.example.com
   ourTeamWorker4URL: https://www.example.com
   ourTeamWorker3URL: https://www.example.com
@@ -41,44 +41,44 @@ ourTeam:
   ourTeamWorker10SportsName: Programming
   ourTeamWorker3SportsImage: /upload/images/hockey.svg
   ourTeamWorker15Image: /upload/images/1-82-9-.svg
-  ourTeamWorker11Position: Chairman
+  ourTeamWorker11Position: Investor
   ourTeamWorker2Image: /upload/images/worker-2.svg
   ourTeamWorker10Name: Fredrick Niemelä
-  ourTeamWorker12Position: Chairman
+  ourTeamWorker12Position: Investor
   ourTeamWorker14Image: /upload/images/1-82-8-.svg
-  ourTeamWorker15SportsImage: /upload/images/motorola.svg
+  ourTeamWorker15SportsImage: /upload/images/hockey.svg
   ourTeamWorker11SportsName: Motosport
   ourTeamWorker1Image: /upload/images/worker-1.svg
   ourTeamWorker2SportsImage: /upload/images/programming.svg
-  ourTeamWorker11Name: Henric Lundgren
-  ourTeamWorker13Position: Chairman
-  ourTeamWorker14SportsImage: /upload/images/motorola.svg
+  ourTeamWorker11Name: Alexander Lundgren
+  ourTeamWorker13Position: Investor
+  ourTeamWorker14SportsImage: /upload/images/icon.svg
   ourTeamWorker13Image: /upload/images/1-82-7-.svg
-  ourTeamWorker12SportsName: Motosport
+  ourTeamWorker12SportsName: Hockey
   ourTeamWorker1SportsImage: /upload/images/volleyball.svg
   ourTeamWorker10SportsHeader: Favourite Sport
-  ourTeamWorker14Position: Chairman
-  ourTeamWorker13SportsImage: /upload/images/1-82-7-.svg
+  ourTeamWorker14Position: Advisor
+  ourTeamWorker13SportsImage: /upload/images/motorola.svg
   ourTeamWorker13SportsName: Motosport
   ourTeamWorker12Image: /upload/images/1-82-6-.svg
   ourTeamWorker11SportsHeader: Favourite Sport
-  ourTeamWorker12Name: Henric Lundgren
+  ourTeamWorker12Name: Svante Anderrson
   ourTeamWorker1Position: Co-founder & CTO
   ourTeamWorker12SportsHeader: Favourite Sport
   ourTeamWorker11Image: /upload/images/1-82-5-.svg
   ourTeamWorker2Position: Co-founder & CEO
   ourTeamWorker1SportsName: Volleyball
-  ourTeamWorker12SportsImage: /upload/images/motorola.svg
+  ourTeamWorker12SportsImage: /upload/images/hockey.svg
   ourTeamWorker13Name: Henric Lundgren
-  ourTeamWorker15Position: Chairman
-  ourTeamWorker14SportsName: Motosport
+  ourTeamWorker15Position: "Advisor "
+  ourTeamWorker14SportsName: Biathlon
   ourTeamWorker2SportsName: Programming
   ourTeamWorker11SportsImage: /upload/images/motorola.svg
   ourTeamWorker3Position: Co-founder & CEO
-  ourTeamWorker15SportsName: Motosport
+  ourTeamWorker15SportsName: Hockey
   ourTeamWorker1Name: Rustan Hakansson
   ourTeamWorker13SportsHeader: Favourite Sport
-  ourTeamWorker14Name: Henric Lundgren
+  ourTeamWorker14Name: Jose Berengueres
   ourTeamWorker10Image: /upload/images/1-82-4-.svg
   ourTeamWorker10SportsImage: /upload/images/programming.svg
   ourTeamWorker3SportsName: Hockey
@@ -86,7 +86,7 @@ ourTeam:
   ourTeamWorker4Position: CFO
   ourTeamWorker14SportsHeader: Favourite Sport
   ourTeamWorker2Name: Fredik Niemelä
-  ourTeamWorker15Name: Henric Lundgren
+  ourTeamWorker15Name: Jesper Nordin
   ourTeamHeader: Our Team
   ourTeamWorker3Name: Sebastian Lundgren
   ourTeamWorker4SportsName: Football
