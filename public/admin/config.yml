@@ -267,7 +267,7 @@ collections:
           - {label: "OurTeam Worker 10 Sports Name", name: "ourTeamWorker10SportsName", widget: "string"}
           - {label: "OurTeam Worker 11 Image", name: "ourTeamWorker11Image", widget: "image"}
           - {label: "OurTeam Worker 11 Name", name: "ourTeamWorker11Name", widget: "string"}
-          - {label: "OurTeam Worker 11 Linkedin URL", name: "ourTeamWorker11RL", widget: "string"}
+          - {label: "OurTeam Worker 11 Linkedin URL", name: "ourTeamWorker11URL", widget: "string"}
           - {label: "OurTeam Worker 11 Position", name: "ourTeamWorker11Position", widget: "string"}
           - {label: "OurTeam Worker 11 Sports Header", name: "ourTeamWorker11SportsHeader", widget: "string"}
           - {label: "OurTeam Worker 11 Sports Image", name: "ourTeamWorker11SportsImage", widget: "image"}

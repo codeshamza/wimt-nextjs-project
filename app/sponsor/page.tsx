@@ -37,6 +37,7 @@ const SponsorPage = () => {
         <h1 className="box1-line1">Sponsors</h1>
         <p className="box1-line2">{markdownObject.content}</p>
       </div>
+      <form action="#">
       <div className="sponsorPage_box">
         <input
           className="sponsors-input"
@@ -57,6 +58,7 @@ const SponsorPage = () => {
         required/>
         <button type="button" className="box2-btn">{markdownObject.button}</button>
       </div>
+      </form>
     </div>
     </>
 
