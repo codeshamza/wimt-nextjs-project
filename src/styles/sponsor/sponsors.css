@@ -1,15 +1,15 @@
 .sponsorPage {
   display: grid;
   grid-template-columns: 40% 60%;
-  margin-top: 180px;
-  margin-bottom: 150px;
-  background-image: url(/images/Rectangle.svg);
+  padding-top: 180px;
+  padding-bottom: 180px;
+  background-image: url(/images/Ellipse.svg);
   background-repeat: no-repeat;
-  background-position: 0% top;
+  background-position: -8% top;
 
 }
 .sponsorPage_box {
-  padding: 0px 100px;
+  padding: 0px 65px 0 100px;
 }
 .box1-line1 {
   font-weight: 400;
@@ -18,7 +18,7 @@
   color: #ffffff;
 }
 .box1-line2 {
-  font-weight: 400;
+  font-family: "Stolzl Book";
   font-size: 16px;
   line-height: 150%;
   color: #ffffff;
@@ -63,6 +63,13 @@
   .sponsorPage_box {
     padding: 0px 30px;
   }
+  .sponsorPage {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-position: 53% -80%;
+
+  
+  }
 }
 
 @media screen and (max-width: 600px){
@@ -70,5 +77,34 @@
     border-radius: 20px;
     width: 84%;
 }
+.box1-line2 {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 80px;
+  
+}
+.box1-line1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  
+}
+.box2-btn{
+  width: 100%;
+}
+}
+/* =====input */
+.sponsors-input:visited:required:invalid,textarea:visited:required:invalid{
+  color: red;
+  border-bottom: 1px solid red;
+}
+.sponsors-input:focus:valid,textarea:focus:valid{
+  color: #ffffff;
+  border-bottom: 1px solid #fff;
+}
+
+.sponsors-input:focus{
+  outline: 0;
+  color: #ffffff;
+  border-bottom: 1px solid #d96a2c;
 }
 

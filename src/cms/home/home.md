@@ -22,7 +22,7 @@ works:
   worksImage3: /upload/images/people-img-3.svg
   worksTitleWithLogoColor: believe
 bannerBg:
-  bannerBgQuote: "We focus on a safe and inspiring digital environment,with groundbreaking income sources for athletes & clubs.We are creating a new universe for every sports fan on the planet"
+  bannerBgQuote: "We focus on a safe and inspiring digital environment，with groundbreaking income sources for athletes & clubs. We are creating a new universe for every sports fan on the planet"
   bannerBgName: Sebastian Lundgren
   bannerBgPosition: CEO at Winning Impact AB
 brainsBehind:

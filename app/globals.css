@@ -32,6 +32,7 @@ a {
 .splide__pagination li {
   display: none !important;
     }
+
 .splide__pagination li:nth-child(1) {
   display: flex !important;
     }
@@ -41,3 +42,12 @@ a {
         .splide__pagination li:nth-child(3) {
           display: flex !important;
             }
+            .splide__pagination button {
+              width: 5px !important;
+              height: 5px !important;
+                }
+          
+
+nav ul li a:hover{
+  font-weight: 400 !important;
+} 

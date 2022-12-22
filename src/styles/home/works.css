@@ -7,6 +7,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 180px;
 }
 .homePage .works-header {
   font-weight: 400;
@@ -30,7 +31,6 @@
 }
 .homePage .works-content .line1,
 .homePage .works-content .line2 {
-  font-weight: 400;
   font-size: 24px;
   color: #fff;
 }
@@ -39,7 +39,7 @@
   border-bottom: 1px solid #999;
 }
 .homePage .works-content .line3 {
-  font-weight: 400;
+  font-family: "Stolzl Book";
   font-size: 24px;
   color: #999;
   padding-left: 5px;
@@ -153,6 +153,9 @@
     padding: 0px 20px;
     font-size: 24px;
   }
+  .homePage .works {
+    background-position: 290% 30% !important;
+  }
   .homePage .works-header,
   .homePage .works-content {
     padding: 0px 30px;
@@ -178,10 +181,16 @@
 .homePage .works-content .line3-full {
   justify-content: start !important;
 }
+.homePage .works {
+  padding-top: 100px !important;
+}
 }
 
  .homePage .works-content .line2 {
-  font-weight: 100;
+  font-family: "Stolzl Book";
+
+  color: #999;
+
 }
 
 

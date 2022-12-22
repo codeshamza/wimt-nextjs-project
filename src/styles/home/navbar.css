@@ -23,6 +23,10 @@ nav ul li a {
   color: #ffffff;
   text-decoration: none;
   align-items: center;
+  font-weight: 100;
+}
+nav ul li a:hover {
+  font-weight: 400;
 }
 nav .menu-btn i {
   font-size: 30px;

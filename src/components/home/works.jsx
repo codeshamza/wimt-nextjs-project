@@ -10,7 +10,7 @@ const Worker = ({ img, name, position, icon, skill }) => (
     <img src={img || ""} alt="" />
     <div className="card-content">
       <p className="line1">{name}</p>
-      <p className="line3">{position}</p>
+      <p className="line2">{position}</p>
       <div className="card-content-border-line" ></div>
       <div className="line3-full">
         <img src={icon} alt="icon" />
@@ -90,7 +90,7 @@ const Works = ({ markdownObject }) => {
         <Worker
             name={markdownObject.worksImage1Name}
             position={markdownObject.worksImage1Position}
-            icon="/images/home/skiing.svg"
+            icon="/images/home/football.svg"
             skill={markdownObject.worksImage1Skill}
           />
 			</li>
@@ -109,7 +109,7 @@ const Works = ({ markdownObject }) => {
         <Worker
             name={markdownObject.worksImage3Name}
             position={markdownObject.worksImage3Position}
-            icon="/images/home/skiing.svg"
+            icon="/images/home/equestrian.svg"
             skill={markdownObject.worksImage3Skill}
           />
 			</li>

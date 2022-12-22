@@ -1,7 +1,7 @@
 .homePage .brains-behind {
   font-family: "Stolzl";
   font-style: normal;
-  margin-top: 150px;
+  margin-top: 180px;
   /* padding: 0px 150px; */
   background-image: url(/images/bg_element.png);
   background-repeat: no-repeat;
@@ -56,6 +56,11 @@
   margin: 0 20px;
 
 }
+.brains-behind  .cards-content h1{
+  font-family: "Stolzl";
+  font-weight: 400;
+}
+
 /* .homePage .brains-behind .cards-content {
   padding-right: 55px;
 } */
@@ -70,6 +75,7 @@
   font-weight: 400;
   font-size: 16px;
   color: #fff;
+  line-height: 150%;
 }
 
 @media screen and (max-width: 1210px) {
@@ -140,6 +146,9 @@
 }
 
 @media screen and (max-width: 425px) {
+  .homePage .brains-behind {
+    margin-top: 100px;
+  }
   .homePage .brains-behind-header {
     padding: 0px 0px;
   }
@@ -235,7 +244,12 @@ button{
 @media screen and (max-width: 600px) {
   .homePage .brains-behind-cards-peragraph {
     padding-left: 5px !important;
+    margin: 4px 0;
  
+  }
+  .brains-behind-cards-dot{
+    margin: 0;
+    padding-top: 4px;
   }
   .homePage .brains-behind {
     /* font-family: "Stolzl";
@@ -261,9 +275,12 @@ button{
 .homePage .brains-behind .cards {
   display: block;
 }
-.cards-content h1{
-  margin: 0px 0px 5px 0px ;
+.brains-behind-cards-content{
+  justify-content: center;
+  align-items: start;
 }
+
+
 }
 @media screen and (min-width: 600px) {
   .brains-behind-mob{
@@ -317,4 +334,8 @@ button{
     opacity: .7 !important;
     background-color: #999 !important;
   
+  }
+  .brains-behind-mob .brains-behind-header-btn {
+    height: 43px;
+    font-size: 16px;
   }

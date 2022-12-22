@@ -13,7 +13,7 @@
 .homePage .header-content {
   position: relative;
   top: 150px;
-  padding: 0px 150px;
+  padding: 0px 50px 0 150px;
 }
 .homePage .header-content h1 {
   font-weight: 400;
@@ -118,14 +118,14 @@
     padding: 0px 22px;
   }
   .homePage .header-content {
-    padding: 0px 20px;
+    padding: 0px;
     top: 0px;
   }
   .homePage .header-img img {
     margin-top: 2rem;
   }
   .homePage .header-content h1 {
-    font-size: 40px;
+    font-size: 38px;
   }
   .homePage .header-content p {
     padding: 0px;

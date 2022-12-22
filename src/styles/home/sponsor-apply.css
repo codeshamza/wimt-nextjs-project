@@ -6,7 +6,7 @@
   background-repeat: no-repeat;
   text-align: center;
   padding: 100px 0px 100px 0px;
-  margin-top: 200px;
+  margin-top: 180px;
 }
 .homePage .sponsor-apply-header-word-color {
   color: #d96a2c;
@@ -52,8 +52,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    padding: 100px 0px 100px 0px;
-    margin-top: 200px;
+    padding: 80px 0px 80px 0px;
+    margin-top: 125px;
   }
   .homePage .sponsor-apply-header-word-color {
     color: #d96a2c;
@@ -96,9 +96,10 @@ button{
   width: 84%;
 }
 .sponsor-apply h1 {
-  font-size: 23px;
+  font-size: 24px;
   font-family: "Stolzl";
   font-weight: 400;
+  padding: 0 5px;
   padding-bottom: 10px;
 }
 .sponsorPage {
@@ -109,7 +110,15 @@ button{
   background-position: -10% top;
 }
 .homePage .sponsor-apply {
-    margin-top: 100px;
+    margin-top: 125px;
 }
+.pc{
+  display: none !important;
+}
+}
+@media screen and (min-width: 600px){
+.mobile{
+display: none !important;
 }
 
+}

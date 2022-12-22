@@ -1,13 +1,11 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import Link from "next/link";
 import "styles/sponsor/sponsors.css";
 
 // markdown
 // @ts-ignore
 import sponsorMd from "cms/sponsor/sponsor.md";
-import Navbar from "@/components/layout/navbar";
 
 const SponsorPage = () => {
   const [markdownObject, setMarkdownObject] = useState({
@@ -31,32 +29,33 @@ const SponsorPage = () => {
     setMarkdownObject(mdObj);
   }, []);
 
-  // console.log(markdownObject);
-
+  // console.log(markdownObject);                           
   return (
     <> 
-    <Navbar/>
     <div className="sponsorPage">
       <div className="sponsorPage_box">
         <h1 className="box1-line1">Sponsors</h1>
         <p className="box1-line2">{markdownObject.content}</p>
       </div>
-
       <div className="sponsorPage_box">
         <input
           className="sponsors-input"
           type="text"
           placeholder="First name"
-        />
-        <input className="sponsors-input" type="text" placeholder="Last name" />
-        <input className="sponsors-input" type="email" placeholder="E-mail" />
+          id="firstname"
+          minLength={3}
+        required />
+        <input className="sponsors-input" type="text" placeholder="Last name" minLength={3}  required/>
+        <input className="sponsors-input" type="email" placeholder="E-mail" minLength={3} required/>
         <textarea
           className="sponsors-input message-box"
           name="comment"
           form="usrform"
           placeholder="Message"
-        />
-        <button className="box2-btn">{markdownObject.button}</button>
+          minLength={12}
+          
+        required/>
+        <button type="button" className="box2-btn">{markdownObject.button}</button>
       </div>
     </div>
     </>

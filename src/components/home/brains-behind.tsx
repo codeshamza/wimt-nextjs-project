@@ -123,7 +123,7 @@ const BrainsBehind = ({ markdownObject }: any) => {
 
 		</ul>
     <Link href="/team">
-        <button style={{width:"100%",marginTop:"20px"}} className="brains-behind-header-btn">Meet the full team</button>
+        <button style={{width:"100%",marginTop:"20px"}} className="brains-behind-header-btn ">Meet the full team</button>
         </Link>
   
   </div>

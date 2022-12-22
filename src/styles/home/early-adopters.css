@@ -8,6 +8,12 @@
   flex-direction: column;
   align-items: center;
 }
+.early-adopters-all-box > div{
+
+
+  display: flex;
+justify-content: center;
+}
 .homePage .early-adopters-header {
   font-weight: 400;
   font-size: 32px;
@@ -22,28 +28,30 @@
   grid-template-columns: 30% 30% 30%;
   grid-column-gap: 60px; */
 
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
 }
-.homePage .early-adopters-all-box > div {
-  display: flex;
-}
+
 .homePage .early-adopters-box {
-  width: 350px;
+  width: 358.5px;
   margin: 12px;
 }
 .homePage .early-adopters-box-line1 {
+
   font-weight: 400;
   font-size: 24px;
   color: #fff;
 }
 .homePage .early-adopters-box-line2 {
+  font-family: "Stolzl Book";
   font-weight: 400;
   font-size: 16px;
   color: #fff;
+  line-height: 150%;
 }
 .homePage .early-adopters-box-line3 {
   font-weight: 400;
+  line-height: 150%;
   font-size: 16px;
   color: #fff;
   opacity: 0.5;
@@ -112,13 +120,19 @@
   .homePage .early-adopters {
     padding: 100px 0;
   }
+  .early-adopters-all-box > div{
+
+
+    display: block;
+  }
   .homePage .early-adopters-header {
-    padding: 0px 40px;
+    padding: 0px 20px;
   }
   .homePage .early-adopters-all-box > div {
     flex-direction: column;
   }
   .homePage .early-adopters-box {
+    margin: 0;
     width: 340px;
     margin-bottom: 20px;
   }
@@ -137,12 +151,14 @@
   .homePage .early-adopters {
     padding: 0px;
     margin: 0;
-    margin-top: 50px;
     font-family: "Stolzl";
     font-style: normal;
     /* text-align: center; */
-    margin-bottom: 40px;
     max-width: 100vw;
+    margin: 100px 0 125px 0;
+  }
+  .early-adopters .splide__pagination {
+    top: 98% !important;
   }
   .homePage .early-adopters-header {
     font-weight: 400;
@@ -170,7 +186,7 @@
     opacity: 0.5;
   }
   .homePage .early-adopters-box-line-border {
-    width: 100px;
+    width: 95%;
     border-top: 2px solid #d96a2c;
   }
   .homePage .early-adopters-box-line2 {

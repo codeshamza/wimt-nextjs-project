@@ -9,6 +9,7 @@ import "styles/home/navbar.css";
 import navbarMd from "cms/navbar/navbar.md";
 
 const Navbar = () => {
+  const [activeLink , setActiveLink] = useState(1)
   const [markdownObject, setMarkdownObject] = useState({
     logo: "",
     navItem1: "",
@@ -44,13 +45,13 @@ const Navbar = () => {
         </i>
       </label>
       <ul>
-        <li className="navbar-items">
-          <Link href="/">{markdownObject.navItem1}</Link>
+        <li onClick={()=>setActiveLink(1)} className="navbar-items">
+          <Link  style={{ fontWeight : activeLink === 1 ? "900" : "100"}} href="/">{markdownObject.navItem1}</Link>
         </li>
-        <li className="navbar-items">
-          <Link href="/[slug]" as="/team">{markdownObject.navItem2}</Link>
+        <li onClick={()=>setActiveLink(2)}  className="navbar-items">
+          <Link  style={{ fontWeight : activeLink === 2 ? "900" : "100"}} href="/team">{markdownObject.navItem2}</Link>
         </li>
-        <li>
+        <li onClick={()=>setActiveLink(3)}  >
           <Link href="/sponsor">
             <button className="nav-sponsor-btn">{markdownObject.button}</button>
           </Link>

@@ -14,7 +14,6 @@ import {
 // markdown
 // @ts-ignore
 import homeMd from "cms/home/home.md";
-import Navbar from "@/components/layout/navbar";
 
 
 const HomePage = () => {
@@ -111,7 +110,6 @@ const HomePage = () => {
 
   return (
     <>
-    <Navbar/>
     <div className="homePage">
       <Header markdownObject={markdownObject} />
       <Works markdownObject={markdownObject} />
