@@ -26,10 +26,10 @@ ourTeam:
   ourTeamWorker8Image: /upload/images/1-82-2-.svg
   ourTeamHeaderBtn1: Management
   ourTeamWorker7Image: /upload/images/1-82-1-.svg
-  ourTeamWorker8SportsImage: /upload/images/motorola.svg
+  ourTeamWorker8SportsImage: /upload/images/hockey.svg
   ourTeamHeaderBtn2: The board
   ourTeamWorker6Image: /upload/images/1-82.svg
-  ourTeamWorker7SportsImage: /upload/images/motorola.svg
+  ourTeamWorker7SportsImage: /upload/images/hockey.svg
   ourTeamWorker6SportsImage: /upload/images/motorola.svg
   ourTeamWorker5Image: /upload/images/worker-5.svg
   ourTeamHeaderBtn3: Advisors & Investors
@@ -40,12 +40,12 @@ ourTeam:
   ourTeamWorker4SportsImage: /upload/images/football.svg
   ourTeamWorker10SportsName: Motosport
   ourTeamWorker3SportsImage: /upload/images/hockey.svg
-  ourTeamWorker15Image: /upload/images/1-82-3-.svg
+  ourTeamWorker15Image: /upload/images/1-82-9-.svg
   ourTeamWorker11Position: Chairman
   ourTeamWorker2Image: /upload/images/worker-2.svg
   ourTeamWorker10Name: Henric Lundgren
   ourTeamWorker12Position: Chairman
-  ourTeamWorker14Image: /upload/images/1-82-3-.svg
+  ourTeamWorker14Image: /upload/images/1-82-8-.svg
   ourTeamWorker15SportsImage: /upload/images/motorola.svg
   ourTeamWorker11SportsName: Motosport
   ourTeamWorker1Image: /upload/images/worker-1.svg
@@ -53,19 +53,19 @@ ourTeam:
   ourTeamWorker11Name: Henric Lundgren
   ourTeamWorker13Position: Chairman
   ourTeamWorker14SportsImage: /upload/images/motorola.svg
-  ourTeamWorker13Image: /upload/images/1-82-3-.svg
+  ourTeamWorker13Image: /upload/images/1-82-7-.svg
   ourTeamWorker12SportsName: Motosport
   ourTeamWorker1SportsImage: /upload/images/volleyball.svg
   ourTeamWorker10SportsHeader: Favourite Sport
   ourTeamWorker14Position: Chairman
-  ourTeamWorker13SportsImage: /upload/images/motorola.svg
+  ourTeamWorker13SportsImage: /upload/images/1-82-7-.svg
   ourTeamWorker13SportsName: Motosport
-  ourTeamWorker12Image: /upload/images/1-82.svg
+  ourTeamWorker12Image: /upload/images/1-82-6-.svg
   ourTeamWorker11SportsHeader: Favourite Sport
   ourTeamWorker12Name: Henric Lundgren
   ourTeamWorker1Position: Co-founder & CTO
   ourTeamWorker12SportsHeader: Favourite Sport
-  ourTeamWorker11Image: /upload/images/1-82.svg
+  ourTeamWorker11Image: /upload/images/1-82-5-.svg
   ourTeamWorker2Position: Co-founder & CEO
   ourTeamWorker1SportsName: Volleyball
   ourTeamWorker12SportsImage: /upload/images/motorola.svg
@@ -100,18 +100,18 @@ ourTeam:
   ourTeamWorker10mage: /upload/images/worker-2.svg
   ourTeamWorker5Name: Alicia Pierrou
   ourTeamWorker6SportsName: Motosport
-  ourTeamWorker7Position: Chairman
+  ourTeamWorker7Position: Board Member
   ourTeamWorker11mage: /upload/images/worker-2.svg
   ourTeamWorker4SportsHeader: Favorite sport
   ourTeamWorker8Position: Chairman
   ourTeamWorker5SportsHeader: Favorite sport
   ourTeamWorker12mage: /upload/images/worker-2.svg
-  ourTeamWorker7SportsName: Motosport
+  ourTeamWorker7SportsName: Hockey
   ourTeamWorker6Name: Henric Lundgren
   ourTeamWorker6SportsHeader: Favourite Sport
   ourTeamWorker13mage: /upload/images/worker-2.svg
   ourTeamWorker8SportsName: Motosport
-  ourTeamWorker7Name: Henric Lundgren
+  ourTeamWorker7Name: Jesper Nordin
   ourTeamWorker9Position: Chairman
   ourTeamWorker9SportsName: Motosport
   ourTeamWorker14mage: /upload/images/worker-2.svg
