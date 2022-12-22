@@ -116,21 +116,21 @@ const TeamPage = () => {
     ourTeamWorker15SportsImage: "/upload/images/motorola.svg",
     ourTeamWorker15Position: "Chairman",
     ourTeamWorker15SportsName: "Motosport",
-    ourTeamWorker1URL: "#",
-    ourTeamWorker2URL: "#",
-    ourTeamWorker3URL: "#",
-    ourTeamWorker4URL: "#",
-    ourTeamWorker5URL: "#",
-    ourTeamWorker6URL: "#",
-    ourTeamWorker7URL: "#",
-    ourTeamWorker8URL: "#",
-    ourTeamWorker9URL: "#",
-    ourTeamWorker10URL: "#",
-    ourTeamWorker11URL: "#",
-    ourTeamWorker12URL: "#",
-    ourTeamWorker13URL: "#",
-    ourTeamWorker14URL: "#",
-    ourTeamWorker15URL: "#",
+    ourTeamWorker1URL: "https://www.example.com",
+    ourTeamWorker2URL: "https://www.example.com",
+    ourTeamWorker3URL: "https://www.example.com",
+    ourTeamWorker4URL: "https://www.example.com",
+    ourTeamWorker5URL: "https://www.example.com",
+    ourTeamWorker6URL: "https://www.example.com",
+    ourTeamWorker7URL: "https://www.example.com",
+    ourTeamWorker8URL: "https://www.example.com",
+    ourTeamWorker9URL: "https://www.example.com",
+    ourTeamWorker10URL: "https://www.example.com",
+    ourTeamWorker11URL: "https://www.example.com",
+    ourTeamWorker12URL: "https://www.example.com",
+    ourTeamWorker13URL: "https://www.example.com",
+    ourTeamWorker14URL: "https://www.example.com",
+    ourTeamWorker15URL: "https://www.example.com",
   });
 
   useEffect(() => {
@@ -240,7 +240,7 @@ const TeamPage = () => {
             <div className="worker_details">
             <h1 className="worker-name">{markdownObject.ourTeamWorker1Name}</h1>
             <Link href="#">
-            <img src="/images/team/Linkedin.svg" alt="" />
+            <img src={markdownObject.ourTeamWorker1URL} alt="" />
             </Link>
             </div>
             <div className="work-name">
@@ -259,7 +259,7 @@ const TeamPage = () => {
             <div className="worker_details">
             <h1 className="worker-name">{markdownObject.ourTeamWorker2Name}</h1>
             <Link href="#">
-            <img src="/images/team/Linkedin.svg" alt="" />
+            <img src={markdownObject.ourTeamWorker2URL} alt="" />
             </Link>
             </div>
             <div className="work-name">
@@ -279,7 +279,7 @@ const TeamPage = () => {
             <div className="worker_details">
             <h1 className="worker-name">{markdownObject.ourTeamWorker3Name}</h1>
             <Link href="#">
-            <img src="/images/team/Linkedin.svg" alt="" />
+            <img src={markdownObject.ourTeamWorker3URL} alt="" />
             </Link>
             </div>
             <div className="work-name">
@@ -299,7 +299,7 @@ const TeamPage = () => {
             <div className="worker_details">
             <h1 className="worker-name">{markdownObject.ourTeamWorker4Name}</h1>
             <Link href="#">
-            <img src="/images/team/Linkedin.svg" alt="" />
+            <img src={markdownObject.ourTeamWorker4URL} alt="" />
             </Link>
             </div>
             <div className="work-name">
@@ -317,7 +317,7 @@ const TeamPage = () => {
             <div className="worker_details">
             <h1 className="worker-name">{markdownObject.ourTeamWorker5Name}</h1>
             <Link href="#">
-            <img src="/images/team/Linkedin.svg" alt="" />
+            <img src={markdownObject.ourTeamWorker5URL} alt="" />
             </Link>
             </div>
             <div className="work-name">
@@ -335,12 +335,12 @@ const TeamPage = () => {
         <div id="Tab2Items" style={{
                display : activeTab === 2 ? "flex" : "none",
               }}  className="workers-pages-1">
-             <div className="worker">
+         <div className="worker">
             <img src={markdownObject.ourTeamWorker6Image} alt="" />
             <div className="worker_details">
             <h1 className="worker-name">{markdownObject.ourTeamWorker6Name}</h1>
             <Link href="#">
-            <img src="/images/team/Linkedin.svg" alt="" />
+            <img src={markdownObject.ourTeamWorker6URL} alt="" />
             </Link>
             </div>
             <div className="work-name">
@@ -355,79 +355,79 @@ const TeamPage = () => {
             </div>
           </div>
           <div className="worker">
-            <img src={markdownObject.ourTeamWorker2Image} alt="" />
+            <img src={markdownObject.ourTeamWorker7Image} alt="" />
             <div className="worker_details">
-            <h1 className="worker-name">{markdownObject.ourTeamWorker2Name}</h1>
+            <h1 className="worker-name">{markdownObject.ourTeamWorker7Name}</h1>
             <Link href="#">
-            <img src="/images/team/Linkedin.svg" alt="" />
+            <img src={markdownObject.ourTeamWorker7URL} alt="" />
             </Link>
             </div>
             <div className="work-name">
-              <p>{markdownObject.ourTeamWorker2Position}</p>
+              <p>{markdownObject.ourTeamWorker7Position}</p>
             </div>
             <p className="favorite-sport">
-              {markdownObject.ourTeamWorker2SportsHeader}
+              {markdownObject.ourTeamWorker7SportsHeader}
             </p>
 
             <div className="games">
-              <img src={markdownObject.ourTeamWorker2SportsImage} alt="" />
-              <p>{markdownObject.ourTeamWorker2SportsName}</p>
+              <img src={markdownObject.ourTeamWorker7SportsImage} alt="" />
+              <p>{markdownObject.ourTeamWorker7SportsName}</p>
             </div>
           </div>
           <div className="worker">
-            <img src={markdownObject.ourTeamWorker3Image} alt="" />
+            <img src={markdownObject.ourTeamWorker8Image} alt="" />
             <div className="worker_details">
-            <h1 className="worker-name">{markdownObject.ourTeamWorker3Name}</h1>
+            <h1 className="worker-name">{markdownObject.ourTeamWorker8Name}</h1>
             <Link href="#">
-            <img src="/images/team/Linkedin.svg" alt="" />
+            <img src={markdownObject.ourTeamWorker8URL} alt="" />
             </Link>
             </div>
             <div className="work-name">
-              <p>{markdownObject.ourTeamWorker3Position}</p>
+              <p>{markdownObject.ourTeamWorker8Position}</p>
             </div>
             <p className="favorite-sport">
-              {markdownObject.ourTeamWorker3SportsHeader}
+              {markdownObject.ourTeamWorker8SportsHeader}
             </p>
 
             <div className="games">
-              <img src={markdownObject.ourTeamWorker3SportsImage} alt="" />
-              <p>{markdownObject.ourTeamWorker3SportsName}</p>
+              <img src={markdownObject.ourTeamWorker8SportsImage} alt="" />
+              <p>{markdownObject.ourTeamWorker8SportsName}</p>
             </div>
           </div>
           <div className="worker">
-            <img src={markdownObject.ourTeamWorker4Image} alt="" />
+            <img src={markdownObject.ourTeamWorker9Image} alt="" />
             <div className="worker_details">
-            <h1 className="worker-name">{markdownObject.ourTeamWorker4Name}</h1>
+            <h1 className="worker-name">{markdownObject.ourTeamWorker9Name}</h1>
             <Link href="#">
-            <img src="/images/team/Linkedin.svg" alt="" />
+            <img src={markdownObject.ourTeamWorker9URL} alt="" />
             </Link>
             </div>
             <div className="work-name">
-              <p>{markdownObject.ourTeamWorker4Position}</p>
+              <p>{markdownObject.ourTeamWorker9Position}</p>
             </div>
-            <p className="favorite-sport">{markdownObject.ourTeamWorker4SportsHeader}</p>
+            <p className="favorite-sport">{markdownObject.ourTeamWorker9SportsHeader}</p>
 
             <div className="games">
-              <img src={markdownObject.ourTeamWorker4SportsImage} alt="" />
-              <p>{markdownObject.ourTeamWorker4SportsName}</p>
+              <img src={markdownObject.ourTeamWorker9SportsImage} alt="" />
+              <p>{markdownObject.ourTeamWorker9SportsName}</p>
             </div>
           </div>
           <div className="worker">
-            <img src={markdownObject.ourTeamWorker5Image} alt="" />
+            <img src={markdownObject.ourTeamWorker10Image} alt="" />
             <div className="worker_details">
-            <h1 className="worker-name">{markdownObject.ourTeamWorker5Name}</h1>
+            <h1 className="worker-name">{markdownObject.ourTeamWorker10Name}</h1>
             <Link href="#">
-            <img src="/images/team/Linkedin.svg" alt="" />
+            <img src={markdownObject.ourTeamWorker10URL} alt="" />
             </Link>
             </div>
             <div className="work-name">
-              <p>{markdownObject.ourTeamWorker5Position}</p>
+              <p>{markdownObject.ourTeamWorker10Position}</p>
             </div>
-            <p className="favorite-sport">{markdownObject.ourTeamWorker5SportsHeader}</p>
+            <p className="favorite-sport">{markdownObject.ourTeamWorker10SportsHeader}</p>
 
             <div className="games">
-              <img src={markdownObject.ourTeamWorker5SportsImage} alt="" />
-              <p>{markdownObject.ourTeamWorker5SportsName}</p>
+              <img src={markdownObject.ourTeamWorker10SportsImage} alt="" />
+              <p>{markdownObject.ourTeamWorker10SportsName}</p>
             </div>
           </div>
         </div>
@@ -435,98 +435,98 @@ const TeamPage = () => {
         <div id="Tab3Items" style={{
                display : activeTab === 3 ? "flex" : "none",
               }} className="workers-pages-1">
-           <div className="worker">
-            <img src={markdownObject.ourTeamWorker1Image} alt="" />
+          <div className="worker">
+            <img src={markdownObject.ourTeamWorker11Image} alt="" />
             <div className="worker_details">
-            <h1 className="worker-name">{markdownObject.ourTeamWorker1Name}</h1>
+            <h1 className="worker-name">{markdownObject.ourTeamWorker11Name}</h1>
             <Link href="#">
-            <img src="/images/team/Linkedin.svg" alt="" />
+            <img src={markdownObject.ourTeamWorker11URL} alt="" />
             </Link>
             </div>
             <div className="work-name">
-              <p>{markdownObject.ourTeamWorker1Position}</p>
+              <p>{markdownObject.ourTeamWorker11Position}</p>
             </div>
             <p className="favorite-sport">
-              {markdownObject.ourTeamWorker1SportsHeader}
+              {markdownObject.ourTeamWorker11SportsHeader}
             </p>
             <div className="games">
-              <img src={markdownObject.ourTeamWorker1SportsImage} alt="" />
-              <p>{markdownObject.ourTeamWorker1SportsName}</p>
+              <img src={markdownObject.ourTeamWorker11SportsImage} alt="" />
+              <p>{markdownObject.ourTeamWorker11SportsName}</p>
             </div>
           </div>
           <div className="worker">
-            <img src={markdownObject.ourTeamWorker2Image} alt="" />
+            <img src={markdownObject.ourTeamWorker12Image} alt="" />
             <div className="worker_details">
-            <h1 className="worker-name">{markdownObject.ourTeamWorker2Name}</h1>
+            <h1 className="worker-name">{markdownObject.ourTeamWorker12Name}</h1>
             <Link href="#">
-            <img src="/images/team/Linkedin.svg" alt="" />
+            <img src={markdownObject.ourTeamWorker12URL} alt="" />
             </Link>
             </div>
             <div className="work-name">
-              <p>{markdownObject.ourTeamWorker2Position}</p>
+              <p>{markdownObject.ourTeamWorker12Position}</p>
             </div>
             <p className="favorite-sport">
-              {markdownObject.ourTeamWorker2SportsHeader}
+              {markdownObject.ourTeamWorker12SportsHeader}
             </p>
 
             <div className="games">
-              <img src={markdownObject.ourTeamWorker2SportsImage} alt="" />
-              <p>{markdownObject.ourTeamWorker2SportsName}</p>
+              <img src={markdownObject.ourTeamWorker12SportsImage} alt="" />
+              <p>{markdownObject.ourTeamWorker12SportsName}</p>
             </div>
           </div>
           <div className="worker">
-            <img src={markdownObject.ourTeamWorker3Image} alt="" />
+            <img src={markdownObject.ourTeamWorker13Image} alt="" />
             <div className="worker_details">
-            <h1 className="worker-name">{markdownObject.ourTeamWorker3Name}</h1>
+            <h1 className="worker-name">{markdownObject.ourTeamWorker13Name}</h1>
             <Link href="#">
-            <img src="/images/team/Linkedin.svg" alt="" />
+            <img src={markdownObject.ourTeamWorker13URL} alt="" />
             </Link>
             </div>
             <div className="work-name">
-              <p>{markdownObject.ourTeamWorker3Position}</p>
+              <p>{markdownObject.ourTeamWorker13Position}</p>
             </div>
             <p className="favorite-sport">
-              {markdownObject.ourTeamWorker3SportsHeader}
+              {markdownObject.ourTeamWorker13SportsHeader}
             </p>
 
             <div className="games">
-              <img src={markdownObject.ourTeamWorker3SportsImage} alt="" />
-              <p>{markdownObject.ourTeamWorker3SportsName}</p>
+              <img src={markdownObject.ourTeamWorker13SportsImage} alt="" />
+              <p>{markdownObject.ourTeamWorker13SportsName}</p>
             </div>
           </div>
           <div className="worker">
-            <img src={markdownObject.ourTeamWorker4Image} alt="" />
+            <img src={markdownObject.ourTeamWorker14Image} alt="" />
             <div className="worker_details">
-            <h1 className="worker-name">{markdownObject.ourTeamWorker4Name}</h1>
+            <h1 className="worker-name">{markdownObject.ourTeamWorker14Name}</h1>
             <Link href="#">
-            <img src="/images/team/Linkedin.svg" alt="" />
+            <img src={markdownObject.ourTeamWorker14URL} alt="" />
             </Link>
             </div>
             <div className="work-name">
-              <p>{markdownObject.ourTeamWorker4Position}</p>
+              <p>{markdownObject.ourTeamWorker14Position}</p>
             </div>
-            <p className="favorite-sport">{markdownObject.ourTeamWorker4SportsHeader}</p>
+            <p className="favorite-sport">{markdownObject.ourTeamWorker14SportsHeader}</p>
 
             <div className="games">
-              <img src={markdownObject.ourTeamWorker4SportsImage} alt="" />
+              <img src={markdownObject.ourTeamWorker14SportsImage} alt="" />
               <p>{markdownObject.ourTeamWorker4SportsName}</p>
             </div>
           </div>
           <div className="worker">
-            <img src={markdownObject.ourTeamWorker5Image} alt="" />
+            <img src={markdownObject.ourTeamWorker15Image} alt="" />
             <div className="worker_details">
-            <h1 className="worker-name">{markdownObject.ourTeamWorker5Name}</h1>
+            <h1 className="worker-name">{markdownObject.ourTeamWorker15Name}</h1>
             <Link href="#">
-            <img src="/images/team/Linkedin.svg" alt="" />
+            <img src={markdownObject.ourTeamWorker15URL} alt="" />
             </Link>
             </div>
             <div className="work-name">
-              <p>{markdownObject.ourTeamWorker5Position}</p>
+              <p>{markdownObject.ourTeamWorker15Position}</p>
             </div>
-            <p className="favorite-sport">{markdownObject.ourTeamWorker5SportsHeader}</p>
+            <p className="favorite-sport">{markdownObject.ourTeamWorker15SportsHeader}</p>
 
             <div className="games">
-              <img src={markdownObject.ourTeamWorker5SportsImage} alt="" />
+              <img src={markdownObject.ourTeamWorker15SportsImage} alt="" />
               <p>{markdownObject.ourTeamWorker5SportsName}</p>
             </div>
           </div>
@@ -619,7 +619,7 @@ const TeamPage = () => {
             <div className="worker_details">
             <h1 className="worker-name">{markdownObject.ourTeamWorker1Name}</h1>
             <Link href="#">
-            <img src="/images/team/Linkedin.svg" alt="" />
+            <img src={markdownObject.ourTeamWorker1URL} alt="" />
             </Link>
             </div>
             <div className="work-name">
@@ -640,7 +640,7 @@ const TeamPage = () => {
             <div className="worker_details">
             <h1 className="worker-name">{markdownObject.ourTeamWorker2Name}</h1>
             <Link href="#">
-            <img src="/images/team/Linkedin.svg" alt="" />
+            <img src={markdownObject.ourTeamWorker2URL}alt="" />
             </Link>
             </div>
             <div className="work-name">
@@ -662,7 +662,7 @@ const TeamPage = () => {
             <div className="worker_details">
             <h1 className="worker-name">{markdownObject.ourTeamWorker3Name}</h1>
             <Link href="#">
-            <img src="/images/team/Linkedin.svg" alt="" />
+            <img src={markdownObject.ourTeamWorker3URL} alt="" />
             </Link>
             </div>
             <div className="work-name">
@@ -684,7 +684,7 @@ const TeamPage = () => {
         <div className="worker_details">
             <h1 className="worker-name">{markdownObject.ourTeamWorker4Name}</h1>
             <Link href="#">
-            <img src="/images/team/Linkedin.svg" alt="" />
+            <img src={markdownObject.ourTeamWorker4URL} alt="" />
             </Link>
             </div>
             <div className="work-name">
@@ -704,7 +704,7 @@ const TeamPage = () => {
         <div className="worker_details">
             <h1 className="worker-name">{markdownObject.ourTeamWorker5Name}</h1>
             <Link href="#">
-            <img src="/images/team/Linkedin.svg" alt="" />
+            <img src={markdownObject.ourTeamWorker5URL} alt="" />
             </Link>
             </div>
             <div className="work-name">
@@ -733,106 +733,106 @@ const TeamPage = () => {
   <div class="splide__track">
 		<ul class="splide__list">
     <li class="splide__slide">
-				<img src={markdownObject.ourTeamWorker1Image} alt=""/>
+				<img src={markdownObject.ourTeamWorker6Image} alt=""/>
         <div className="worker">
             <div className="worker_details">
-            <h1 className="worker-name">{markdownObject.ourTeamWorker1Name}</h1>
+            <h1 className="worker-name">{markdownObject.ourTeamWorker6Name}</h1>
             <Link href="#">
-            <img src="/images/team/Linkedin.svg" alt="" />
+            <img src={markdownObject.ourTeamWorker6URL} alt="" />
             </Link>
             </div>
             <div className="work-name">
-              <p>{markdownObject.ourTeamWorker1Position}</p>
+              <p>{markdownObject.ourTeamWorker6Position}</p>
             </div>
             <p className="favorite-sport">
-              {markdownObject.ourTeamWorker1SportsHeader}
+              {markdownObject.ourTeamWorker6SportsHeader}
             </p>
             <div className="games">
-              <img src={markdownObject.ourTeamWorker1SportsImage} alt="" />
-              <p>{markdownObject.ourTeamWorker1SportsName}</p>
-            </div>
-          </div>
-		</li>
-			<li class="splide__slide">
-				<img src={markdownObject.ourTeamWorker2Image} alt=""/>
-        <div className="worker">
-            <div className="worker_details">
-            <h1 className="worker-name">{markdownObject.ourTeamWorker2Name}</h1>
-            <Link href="#">
-            <img src="/images/team/Linkedin.svg" alt="" />
-            </Link>
-            </div>
-            <div className="work-name">
-              <p>{markdownObject.ourTeamWorker2Position}</p>
-            </div>
-            <p className="favorite-sport">
-              {markdownObject.ourTeamWorker2SportsHeader}
-            </p>
-
-            <div className="games">
-              <img src={markdownObject.ourTeamWorker2SportsImage} alt="" />
-              <p>{markdownObject.ourTeamWorker2SportsName}</p>
+              <img src={markdownObject.ourTeamWorker6SportsImage} alt="" />
+              <p>{markdownObject.ourTeamWorker6SportsName}</p>
             </div>
           </div>
 			</li>
 			<li class="splide__slide">
-				<img src={markdownObject.ourTeamWorker3Image} alt=""/>
+				<img src={markdownObject.ourTeamWorker7Image} alt=""/>
         <div className="worker">
             <div className="worker_details">
-            <h1 className="worker-name">{markdownObject.ourTeamWorker3Name}</h1>
+            <h1 className="worker-name">{markdownObject.ourTeamWorker7Name}</h1>
             <Link href="#">
-            <img src="/images/team/Linkedin.svg" alt="" />
+            <img src={markdownObject.ourTeamWorker7URL}alt="" />
             </Link>
             </div>
             <div className="work-name">
-              <p>{markdownObject.ourTeamWorker3Position}</p>
+              <p>{markdownObject.ourTeamWorker7Position}</p>
             </div>
             <p className="favorite-sport">
-              {markdownObject.ourTeamWorker3SportsHeader}
+              {markdownObject.ourTeamWorker7SportsHeader}
             </p>
 
             <div className="games">
-              <img src={markdownObject.ourTeamWorker3SportsImage} alt="" />
-              <p>{markdownObject.ourTeamWorker3SportsName}</p>
+              <img src={markdownObject.ourTeamWorker7SportsImage} alt="" />
+              <p>{markdownObject.ourTeamWorker7SportsName}</p>
+            </div>
+          </div>
+			</li>
+			<li class="splide__slide">
+				<img src={markdownObject.ourTeamWorker8Image} alt=""/>
+        <div className="worker">
+            <div className="worker_details">
+            <h1 className="worker-name">{markdownObject.ourTeamWorker8Name}</h1>
+            <Link href="#">
+            <img src={markdownObject.ourTeamWorker8URL} alt="" />
+            </Link>
+            </div>
+            <div className="work-name">
+              <p>{markdownObject.ourTeamWorker8Position}</p>
+            </div>
+            <p className="favorite-sport">
+              {markdownObject.ourTeamWorker8SportsHeader}
+            </p>
+
+            <div className="games">
+              <img src={markdownObject.ourTeamWorker8SportsImage} alt="" />
+              <p>{markdownObject.ourTeamWorker8SportsName}</p>
             </div>
           </div>
 			</li>
       <li class="splide__slide">
-				<img src={markdownObject.ourTeamWorker4Image} alt=""/>
+				<img src={markdownObject.ourTeamWorker9Image} alt=""/>
         <div className="worker">
         <div className="worker_details">
-            <h1 className="worker-name">{markdownObject.ourTeamWorker4Name}</h1>
+            <h1 className="worker-name">{markdownObject.ourTeamWorker9Name}</h1>
             <Link href="#">
-            <img src="/images/team/Linkedin.svg" alt="" />
+            <img src={markdownObject.ourTeamWorker9URL} alt="" />
             </Link>
             </div>
             <div className="work-name">
-              <p>{markdownObject.ourTeamWorker4Position}</p>
+              <p>{markdownObject.ourTeamWorker9Position}</p>
             </div>
-            <p className="favorite-sport">{markdownObject.ourTeamWorker4SportsHeader}</p>
+            <p className="favorite-sport">{markdownObject.ourTeamWorker9SportsHeader}</p>
 
             <div className="games">
-              <img src={markdownObject.ourTeamWorker4SportsImage} alt="" />
-              <p>{markdownObject.ourTeamWorker4SportsName}</p>
+              <img src={markdownObject.ourTeamWorker9SportsImage} alt="" />
+              <p>{markdownObject.ourTeamWorker9SportsName}</p>
             </div>
          </div>
 			</li>
-			<li class="splide__slide">
-				<img src={markdownObject.ourTeamWorker5Image} alt=""/>
+			<li class="splide__slide">1
+				<img src={markdownObject.ourTeamWorker10Image} alt=""/>
         <div className="worker">
         <div className="worker_details">
-            <h1 className="worker-name">{markdownObject.ourTeamWorker5Name}</h1>
+            <h1 className="worker-name">{markdownObject.ourTeamWorker10Name}</h1>
             <Link href="#">
-            <img src="/images/team/Linkedin.svg" alt="" />
+            <img src={markdownObject.ourTeamWorker10URL} alt="" />
             </Link>
             </div>
             <div className="work-name">
-              <p>{markdownObject.ourTeamWorker5Position}</p>
+              <p>{markdownObject.ourTeamWorker10Position}</p>
             </div>
-            <p className="favorite-sport">{markdownObject.ourTeamWorker5SportsHeader}</p>
+            <p className="favorite-sport">{markdownObject.ourTeamWorker10SportsHeader}</p>
 
             <div className="games">
-              <img src={markdownObject.ourTeamWorker5SportsImage} alt="" />
+              <img src={markdownObject.ourTeamWorker10SportsImage} alt="" />
               <p>{markdownObject.ourTeamWorker5SportsName}</p>
             </div>
           </div>
@@ -851,107 +851,107 @@ const TeamPage = () => {
                  <div class="splide__track">
 		<ul class="splide__list">
     <li class="splide__slide">
-				<img src={markdownObject.ourTeamWorker1Image} alt=""/>
+				<img src={markdownObject.ourTeamWorker11Image} alt=""/>
         <div className="worker">
             <div className="worker_details">
-            <h1 className="worker-name">{markdownObject.ourTeamWorker1Name}</h1>
+            <h1 className="worker-name">{markdownObject.ourTeamWorker11Name}</h1>
             <Link href="#">
-            <img src="/images/team/Linkedin.svg" alt="" />
+            <img src={markdownObject.ourTeamWorker11URL} alt="" />
             </Link>
             </div>
             <div className="work-name">
-              <p>{markdownObject.ourTeamWorker1Position}</p>
+              <p>{markdownObject.ourTeamWorker11Position}</p>
             </div>
             <p className="favorite-sport">
-              {markdownObject.ourTeamWorker1SportsHeader}
+              {markdownObject.ourTeamWorker11SportsHeader}
             </p>
             <div className="games">
-              <img src={markdownObject.ourTeamWorker1SportsImage} alt="" />
-              <p>{markdownObject.ourTeamWorker1SportsName}</p>
+              <img src={markdownObject.ourTeamWorker11SportsImage} alt="" />
+              <p>{markdownObject.ourTeamWorker11SportsName}</p>
             </div>
           </div>
 			</li>
 			<li class="splide__slide">
-				<img src={markdownObject.ourTeamWorker2Image} alt=""/>
+				<img src={markdownObject.ourTeamWorker12Image} alt=""/>
         <div className="worker">
             <div className="worker_details">
-            <h1 className="worker-name">{markdownObject.ourTeamWorker2Name}</h1>
+            <h1 className="worker-name">{markdownObject.ourTeamWorker12Name}</h1>
             <Link href="#">
-            <img src="/images/team/Linkedin.svg" alt="" />
+            <img src={markdownObject.ourTeamWorker12URL}alt="" />
             </Link>
             </div>
             <div className="work-name">
-              <p>{markdownObject.ourTeamWorker2Position}</p>
+              <p>{markdownObject.ourTeamWorker12Position}</p>
             </div>
             <p className="favorite-sport">
-              {markdownObject.ourTeamWorker2SportsHeader}
+              {markdownObject.ourTeamWorker12SportsHeader}
             </p>
 
             <div className="games">
-              <img src={markdownObject.ourTeamWorker2SportsImage} alt="" />
-              <p>{markdownObject.ourTeamWorker2SportsName}</p>
+              <img src={markdownObject.ourTeamWorker12SportsImage} alt="" />
+              <p>{markdownObject.ourTeamWorker12SportsName}</p>
             </div>
           </div>
 			</li>
 			<li class="splide__slide">
-				<img src={markdownObject.ourTeamWorker3Image} alt=""/>
+				<img src={markdownObject.ourTeamWorker13Image} alt=""/>
         <div className="worker">
             <div className="worker_details">
-            <h1 className="worker-name">{markdownObject.ourTeamWorker3Name}</h1>
+            <h1 className="worker-name">{markdownObject.ourTeamWorker13Name}</h1>
             <Link href="#">
-            <img src="/images/team/Linkedin.svg" alt="" />
+            <img src={markdownObject.ourTeamWorker13URL} alt="" />
             </Link>
             </div>
             <div className="work-name">
-              <p>{markdownObject.ourTeamWorker3Position}</p>
+              <p>{markdownObject.ourTeamWorker13Position}</p>
             </div>
             <p className="favorite-sport">
-              {markdownObject.ourTeamWorker3SportsHeader}
+              {markdownObject.ourTeamWorker13SportsHeader}
             </p>
 
             <div className="games">
-              <img src={markdownObject.ourTeamWorker3SportsImage} alt="" />
-              <p>{markdownObject.ourTeamWorker3SportsName}</p>
+              <img src={markdownObject.ourTeamWorker13SportsImage} alt="" />
+              <p>{markdownObject.ourTeamWorker13SportsName}</p>
             </div>
           </div>
 			</li>
       <li class="splide__slide">
-				<img src={markdownObject.ourTeamWorker4Image} alt=""/>
+				<img src={markdownObject.ourTeamWorker14Image} alt=""/>
         <div className="worker">
         <div className="worker_details">
-            <h1 className="worker-name">{markdownObject.ourTeamWorker4Name}</h1>
+            <h1 className="worker-name">{markdownObject.ourTeamWorker14Name}</h1>
             <Link href="#">
-            <img src="/images/team/Linkedin.svg" alt="" />
+            <img src={markdownObject.ourTeamWorker14URL} alt="" />
             </Link>
             </div>
             <div className="work-name">
-              <p>{markdownObject.ourTeamWorker4Position}</p>
+              <p>{markdownObject.ourTeamWorker14Position}</p>
             </div>
-            <p className="favorite-sport">{markdownObject.ourTeamWorker4SportsHeader}</p>
+            <p className="favorite-sport">{markdownObject.ourTeamWorker14SportsHeader}</p>
 
             <div className="games">
-              <img src={markdownObject.ourTeamWorker4SportsImage} alt="" />
-              <p>{markdownObject.ourTeamWorker4SportsName}</p>
+              <img src={markdownObject.ourTeamWorker14SportsImage} alt="" />
+              <p>{markdownObject.ourTeamWorker14SportsName}</p>
             </div>
          </div>
 			</li>
 			<li class="splide__slide">
-				<img src={markdownObject.ourTeamWorker5Image} alt=""/>
+				<img src={markdownObject.ourTeamWorker15Image} alt=""/>
         <div className="worker">
         <div className="worker_details">
-            <h1 className="worker-name">{markdownObject.ourTeamWorker5Name}</h1>
+            <h1 className="worker-name">{markdownObject.ourTeamWorker15Name}</h1>
             <Link href="#">
-            <img src="/images/team/Linkedin.svg" alt="" />
+            <img src={markdownObject.ourTeamWorker15URL} alt="" />
             </Link>
             </div>
             <div className="work-name">
-              <p>{markdownObject.ourTeamWorker5Position}</p>
+              <p>{markdownObject.ourTeamWorker15Position}</p>
             </div>
-            <p className="favorite-sport">{markdownObject.ourTeamWorker5SportsHeader}</p>
+            <p className="favorite-sport">{markdownObject.ourTeamWorker15SportsHeader}</p>
 
             <div className="games">
-              <img src={markdownObject.ourTeamWorker5SportsImage} alt="" />
-              <p>{markdownObject.ourTeamWorker5SportsName}</p>
+              <img src={markdownObject.ourTeamWorker15SportsImage} alt="" />
+              <p>{markdownObject.ourTeamWorker15SportsName}</p>
             </div>
           </div>
 			</li>

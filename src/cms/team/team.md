@@ -11,21 +11,21 @@ ourTeam:
   ourTeamHeaderBtn1: Management
   ourTeamHeaderBtn2: The board
   ourTeamWorker5Image: /upload/images/worker-5.svg
-  ourTeamWorker1URL: #
-  ourTeamWorker2URL: #
-  ourTeamWorker3URL: #
-  ourTeamWorker4URL: #
-  ourTeamWorker5URL: #
-  ourTeamWorker6URL: #
-  ourTeamWorker7URL: #
-  ourTeamWorker8URL: #
-  ourTeamWorker9URL: #
-  ourTeamWorker10URL: #
-  ourTeamWorker11URL: #
-  ourTeamWorker12URL: #
-  ourTeamWorker13URL: #
-  ourTeamWorker14URL: #
-  ourTeamWorker15URL: #
+  ourTeamWorker1URL: https://www.example.com
+  ourTeamWorker2URL: https://www.example.com
+  ourTeamWorker3URL: https://www.example.com
+  ourTeamWorker4URL: https://www.example.com
+  ourTeamWorker5URL: https://www.example.com
+  ourTeamWorker6URL: https://www.example.com
+  ourTeamWorker7URL: https://www.example.com
+  ourTeamWorker8URL: https://www.example.com
+  ourTeamWorker9URL: https://www.example.com
+  ourTeamWorker10URL: https://www.example.com
+  ourTeamWorker11URL: https://www.example.com
+  ourTeamWorker12URL: https://www.example.com
+  ourTeamWorker13URL: https://www.example.com
+  ourTeamWorker14URL: https://www.example.com
+  ourTeamWorker15URL: https://www.example.com
   ourTeamHeaderBtn3: Advisors & Investors
   ourTeamWorker4Image: /upload/images/worker-4.svg
   ourTeamWorker5SportsImage: /upload/images/waterpolo.svg

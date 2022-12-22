@@ -35,7 +35,7 @@
   color: #d96a2c;
 }
 .teamPage .our-team {
-  padding: 0px 125px;
+  padding: 0px 86px;
   font-family: "Stolzl";
   font-style: normal;
 }
@@ -195,7 +195,6 @@
 
 @media screen and (max-width: 800px) {
   .teamPage .workers-pages-1 {
-
     flex-wrap:nowrap;
   }
   .teamPage .header-content {
