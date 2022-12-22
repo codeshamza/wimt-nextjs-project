@@ -56,6 +56,11 @@ const TeamPage = () => {
     bannerBgQuote: '"Our team is world leading experts',
     bannerBgName: "Rustan Håkansson",
     bannerBgPosition: "CEO at Winning Impact",
+    ourTeamWorker6Image: "/upload/images/worker-2.svg",
+    ourTeamWorker6Name: "Henric Lundgren",
+    ourTeamWorker6Position: "Chairman",
+    ourTeamWorker6SportsName: "Motosport",
+    ourTeamWorker6SportsImage: "/upload/images/volleyball.svg"
   });
 
   useEffect(() => {
@@ -261,22 +266,22 @@ const TeamPage = () => {
                display : activeTab === 2 ? "flex" : "none",
               }}  className="workers-pages-1">
              <div className="worker">
-            <img src={markdownObject.ourTeamWorker1Image} alt="" />
+            <img src={markdownObject.ourTeamWorker6Image} alt="" />
             <div className="worker_details">
-            <h1 className="worker-name">{markdownObject.ourTeamWorker1Name}</h1>
+            <h1 className="worker-name">{markdownObject.ourTeamWorker6Name}</h1>
             <Link href="#">
             <img src="/images/team/Linkedin.svg" alt="" />
             </Link>
             </div>
             <div className="work-name">
-              <p>{markdownObject.ourTeamWorker1Position}</p>
+              <p>{markdownObject.ourTeamWorker6Position}</p>
             </div>
             <p className="favorite-sport">
-              {markdownObject.ourTeamWorker1SportsHeader}
+              {markdownObject.ourTeamWorker6SportsHeader}
             </p>
             <div className="games">
-              <img src={markdownObject.ourTeamWorker1SportsImage} alt="" />
-              <p>{markdownObject.ourTeamWorker1SportsName}</p>
+              <img src={markdownObject.ourTeamWorker6SportsImage} alt="" />
+              <p>{markdownObject.ourTeamWorker6SportsName}</p>
             </div>
           </div>
           <div className="worker">
