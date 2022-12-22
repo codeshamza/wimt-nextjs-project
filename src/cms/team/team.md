@@ -41,6 +41,11 @@ ourTeam:
   ourTeamWorker5Name: Alicia Pierrou
   ourTeamWorker4SportsHeader: Favorite sport
   ourTeamWorker5SportsHeader: Favorite sport
+  ourTeamWorker6Image: /upload/images/worker-2.svg
+  ourTeamWorker6Name: Henric Lundgren
+  ourTeamWorker6Position: Chairman
+  ourTeamWorker6SportsName: Motosport
+  ourTeamWorker6SportsImage: /upload/images/volleyball.svg
 bannerBg:
   bannerBgQuote: "Our team is world leading experts,and our different characteristics and areas of knowledge truly makes us a winning team"
   bannerBgName: Rustan Håkansson
