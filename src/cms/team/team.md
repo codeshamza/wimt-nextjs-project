@@ -27,7 +27,7 @@ ourTeam:
   ourTeamWorker3Position: Co-founder & CEO
   ourTeamWorker1Name: Rustan Hakansson
   ourTeamWorker3SportsName: Hockey
-  ourTeamWorker1SportsHeader: Favorite sport
+  ourTeamWorker1SportsHeader: Favorite spor
   ourTeamWorker4Position: CFO
   ourTeamWorker2Name: Fredik Niemelä
   ourTeamHeader: Our Team
