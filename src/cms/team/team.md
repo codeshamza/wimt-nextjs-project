@@ -22,7 +22,7 @@ ourTeam:
   ourTeamWorker11URL: https://www.example.com
   ourTeamWorker9Image: /upload/images/1-82-3-.svg
   ourTeamWorker10URL: https://www.example.com
-  ourTeamWorker9SportsImage: /upload/images/motorola.svg
+  ourTeamWorker9SportsImage: /upload/images/waterpolo.svg
   ourTeamWorker8Image: /upload/images/1-82-2-.svg
   ourTeamHeaderBtn1: Management
   ourTeamWorker7Image: /upload/images/1-82-1-.svg
@@ -36,14 +36,14 @@ ourTeam:
   ourTeamWorker4Image: /upload/images/worker-4.svg
   ourTeamWorker5SportsImage: /upload/images/waterpolo.svg
   ourTeamWorker3Image: /upload/images/worker-3.svg
-  ourTeamWorker10Position: Chairman
+  ourTeamWorker10Position: Board Member
   ourTeamWorker4SportsImage: /upload/images/football.svg
-  ourTeamWorker10SportsName: Motosport
+  ourTeamWorker10SportsName: Programming
   ourTeamWorker3SportsImage: /upload/images/hockey.svg
   ourTeamWorker15Image: /upload/images/1-82-9-.svg
   ourTeamWorker11Position: Chairman
   ourTeamWorker2Image: /upload/images/worker-2.svg
-  ourTeamWorker10Name: Henric Lundgren
+  ourTeamWorker10Name: Fredrick Niemelä
   ourTeamWorker12Position: Chairman
   ourTeamWorker14Image: /upload/images/1-82-8-.svg
   ourTeamWorker15SportsImage: /upload/images/motorola.svg
@@ -80,7 +80,7 @@ ourTeam:
   ourTeamWorker13SportsHeader: Favourite Sport
   ourTeamWorker14Name: Henric Lundgren
   ourTeamWorker10Image: /upload/images/1-82-4-.svg
-  ourTeamWorker10SportsImage: /upload/images/motorola.svg
+  ourTeamWorker10SportsImage: /upload/images/programming.svg
   ourTeamWorker3SportsName: Hockey
   ourTeamWorker1SportsHeader: Favorite sport
   ourTeamWorker4Position: CFO
@@ -112,14 +112,14 @@ ourTeam:
   ourTeamWorker13mage: /upload/images/worker-2.svg
   ourTeamWorker8SportsName: Hockey
   ourTeamWorker7Name: Jesper Nordin
-  ourTeamWorker9Position: Chairman
-  ourTeamWorker9SportsName: Motosport
+  ourTeamWorker9Position: Board Member
+  ourTeamWorker9SportsName: Waterpolo
   ourTeamWorker14mage: /upload/images/worker-2.svg
   ourTeamWorker8Name: Sebastian Lundgren
   ourTeamWorker7SportsHeader: Favourite Sport
   ourTeamWorker15mage: /upload/images/worker-2.svg
   ourTeamWorker8SportsHeader: Favourite Sport
-  ourTeamWorker9Name: Henric Lundgren
+  ourTeamWorker9Name: Alicia Pierrou
   ourTeamWorker9URL: https://www.example.com
   ourTeamWorker9SportsHeader: Favourite Sport
   ourTeamWorker8URL: https://www.example.com
