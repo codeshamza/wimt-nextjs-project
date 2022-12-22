@@ -103,19 +103,19 @@ ourTeam:
   ourTeamWorker7Position: Board Member
   ourTeamWorker11mage: /upload/images/worker-2.svg
   ourTeamWorker4SportsHeader: Favorite sport
-  ourTeamWorker8Position: Chairman
+  ourTeamWorker8Position: Board Member
   ourTeamWorker5SportsHeader: Favorite sport
   ourTeamWorker12mage: /upload/images/worker-2.svg
   ourTeamWorker7SportsName: Hockey
   ourTeamWorker6Name: Henric Lundgren
   ourTeamWorker6SportsHeader: Favourite Sport
   ourTeamWorker13mage: /upload/images/worker-2.svg
-  ourTeamWorker8SportsName: Motosport
+  ourTeamWorker8SportsName: Hockey
   ourTeamWorker7Name: Jesper Nordin
   ourTeamWorker9Position: Chairman
   ourTeamWorker9SportsName: Motosport
   ourTeamWorker14mage: /upload/images/worker-2.svg
-  ourTeamWorker8Name: Henric Lundgren
+  ourTeamWorker8Name: Sebastian Lundgren
   ourTeamWorker7SportsHeader: Favourite Sport
   ourTeamWorker15mage: /upload/images/worker-2.svg
   ourTeamWorker8SportsHeader: Favourite Sport
