@@ -54,9 +54,8 @@ const SponsorPage = () => {
           form="usrform"
           placeholder="Message"
           minLength={12}
-          
         required/>
-        <button type="button" className="box2-btn">{markdownObject.button}</button>
+        <button type="submit" style={{cursor:"pointer"}} className="box2-btn">{markdownObject.button}</button>
       </div>
       </form>
     </div>

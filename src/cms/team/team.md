@@ -70,7 +70,7 @@ ourTeam:
   ourTeamWorker1SportsName: Volleyball
   ourTeamWorker12SportsImage: /upload/images/hockey.svg
   ourTeamWorker13Name: Henric Lundgren
-  ourTeamWorker15Position: "Advisor "
+  ourTeamWorker15Position: Advisor
   ourTeamWorker14SportsName: Biathlon
   ourTeamWorker2SportsName: Programming
   ourTeamWorker11SportsImage: /upload/images/motorola.svg
