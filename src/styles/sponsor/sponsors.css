@@ -59,14 +59,14 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 550px) {
   .sponsorPage_box {
     padding: 0px 30px;
   }
   .sponsorPage {
     padding-top: 100px;
     padding-bottom: 100px;
-    background-position: 53% -80%;
+    background-position: 45% -147%;
 
   
   }
