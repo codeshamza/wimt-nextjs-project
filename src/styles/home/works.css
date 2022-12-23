@@ -172,7 +172,7 @@
     font-size: 24px;
   }
 .homePage .works-content .line1, .homePage .works-content .line2, .homePage .works-content .line3 {
-    font-size: 18px;
+    font-size: calc(18px);
     margin: 0;
     text-align: left;
     
@@ -218,7 +218,7 @@
 }
 
 .work-con .splide__arrow {
-  top: 29% !important;
+  top: 30% !important;
 }
 .work-con .splide__pagination {
   top: 105% !important;

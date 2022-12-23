@@ -80,10 +80,10 @@ nav .menu-btn i {
     padding-top: 100px;
   }
   .navbar-items:checked ~ ul {
-    left: 0;
+    left: 0 ;
   }
   #nav-bar-click:checked ~ ul {
-    left: 0;
+    left: 0 !important;
   }
   nav ul li {
     margin: 40px 0px;

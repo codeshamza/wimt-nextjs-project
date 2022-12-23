@@ -45,13 +45,28 @@ const Navbar = () => {
         </i>
       </label>
       <ul>
-        <li onClick={()=>setActiveLink(1)} className="navbar-items">
+        <li onClick={()=>{
+          setActiveLink(1);
+          const Checkbox = document.getElementById("nav-bar-click");
+          if(Checkbox)
+           Checkbox.checked = false;
+           }} className="navbar-items">
           <Link  style={{ fontWeight : activeLink === 1 ? "900" : "100"}} href="/">{markdownObject.navItem1}</Link>
         </li>
-        <li onClick={()=>setActiveLink(2)}  className="navbar-items">
+        <li onClick={()=>{
+          setActiveLink(2);
+          const Checkbox = document.getElementById("nav-bar-click");
+          if(Checkbox)
+           Checkbox.checked = false;
+           }}  className="navbar-items">
           <Link  style={{ fontWeight : activeLink === 2 ? "900" : "100"}} href="/team">{markdownObject.navItem2}</Link>
         </li>
-        <li onClick={()=>setActiveLink(3)}  >
+        <li  onClick={()=>{
+          setActiveLink(3);
+          const Checkbox = document.getElementById("nav-bar-click");
+          if(Checkbox)
+           Checkbox.checked = false;
+           }} >
           <Link href="/sponsor">
             <button className="nav-sponsor-btn">{markdownObject.button}</button>
           </Link>
