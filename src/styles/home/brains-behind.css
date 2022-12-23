@@ -307,10 +307,10 @@ button{
             display: flex !important;
               }
   .splide__arrow {
-    background: rgb(255, 145, 0) !important;
+    background: #D96A2C !important;
     color: white !important;
-    height: 35px !important;
-    width: 35px !important;
+    height: 40px !important;
+    width: 40px !important;
   }
   .splide__arrow svg {
     fill: rgb(255, 255, 255) !important;
@@ -319,7 +319,7 @@ button{
   }
   
   .brains-con .splide__arrow {
-    top: 23% !important;
+    top: 22% !important;
   }
   .brains-con .splide__pagination {
     top: 105% !important;

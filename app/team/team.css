@@ -451,7 +451,7 @@ flex: 50%;
     z-index: 1;
   }
   .splide__arrow {
-    background: rgb(255, 145, 0) !important;
+    background: #D96A2C !important;
     color: white !important;
   }
   .splide__arrow svg {
@@ -467,18 +467,18 @@ flex: 50%;
 
   #image-carousel3 .splide__arrow {
     top: 26% !important;
-    height: 35px !important;
-    width: 35px !important;
+    height: 40px !important;
+    width: 40px !important;
   }
   #image-carousel4 .splide__arrow {
     top: 26% !important;
-    height: 35px !important;
-    width: 35px !important;
+    height: 40px !important;
+    width: 40px !important;
   }
   #image-carousel5 .splide__arrow {
     top: 26% !important;
-    height: 35px !important;
-    width: 35px !important;
+    height: 40px !important;
+    width: 40px !important;
   }
   #image-carousel3 img:first-child {
     border-radius: 12px;

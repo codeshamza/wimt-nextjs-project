@@ -148,7 +148,7 @@
 
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 550px) {
   .homePage .works-header {
     padding: 0px 20px;
     font-size: 24px;
@@ -208,7 +208,7 @@
   z-index: 1;
 }
 .splide__arrow {
-  background: rgb(255, 145, 0) !important;
+  background: #D96A2C !important;
   color: white !important;
 }
 .splide__arrow svg {
@@ -218,7 +218,7 @@
 }
 
 .work-con .splide__arrow {
-  top: 30% !important;
+  top: 29% !important;
 }
 .work-con .splide__pagination {
   top: 105% !important;

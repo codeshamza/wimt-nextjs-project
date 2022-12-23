@@ -125,7 +125,7 @@ ourTeam:
   ourTeamWorker8URL: https://www.example.com
   ourTeamWorker7URL: https://www.example.com
 bannerBg:
-  bannerBgQuote: Our team is world leading experts，and our different characteristics and areas of knowledge truly makes us a winning team
+  bannerBgQuote: Our team is world leading experts，and our different characteristics and areas of knowledge truly makes us a winning team.
   bannerBgName: Rustan Håkansson
   bannerBgPosition: CEO at Winning Impact AB
 ---
