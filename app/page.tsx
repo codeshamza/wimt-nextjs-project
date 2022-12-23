@@ -9,6 +9,8 @@ import {
   SponsorApply,
   EarlyAdopters,
 } from "components/home";
+import Navbar from "@/components/layout/navbar";
+
 // import "./home.css";
 
 // markdown
@@ -111,6 +113,7 @@ const HomePage = () => {
   return (
     <>
     <div className="homePage">
+      <Navbar/>
       <Header markdownObject={markdownObject} />
       <Works markdownObject={markdownObject} />
       <BannerBg markdownObject={markdownObject} />

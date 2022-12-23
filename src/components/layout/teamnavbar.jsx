@@ -24,7 +24,7 @@ const Navbar = () => {
       .join(", ");
     const _mdString = mdString.substring(0, mdString.length - 2);
 
-    const mdObj = _mdString.split(", ").reduce((acc: any, cur) => {
+    const mdObj = _mdString.split(", ").reduce((acc, cur) => {
       const [key, value] = cur.split(": ");
       acc[key] = value;
       return acc;
@@ -51,7 +51,7 @@ const Navbar = () => {
           if(Checkbox)
            Checkbox.checked = false;
            }} className="navbar-items">
-          <Link  style={{ fontWeight : "900"}} href="/">{markdownObject.navItem1}</Link>
+          <Link href="/">{markdownObject.navItem1}</Link>
         </li>
         <li onClick={()=>{
           setActiveLink(2);
@@ -59,7 +59,7 @@ const Navbar = () => {
           if(Checkbox)
            Checkbox.checked = false;
            }}  className="navbar-items">
-          <Link href="/team">{markdownObject.navItem2}</Link>
+          <Link style={{ fontWeight : "900"}} href="/team">{markdownObject.navItem2}</Link>
         </li>
         <li  onClick={()=>{
           setActiveLink(3);

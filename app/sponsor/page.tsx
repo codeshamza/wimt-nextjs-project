@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import "styles/sponsor/sponsors.css";
-
+import Navbar from "@/components/layout/sponsorsnavbar";
 // markdown
 // @ts-ignore
 import sponsorMd from "cms/sponsor/sponsor.md";
@@ -32,6 +32,7 @@ const SponsorPage = () => {
   // console.log(markdownObject);                           
   return (
     <> 
+    <Navbar/>
     <div className="sponsorPage">
       <div className="sponsorPage_box">
         <h1 className="box1-line1">Sponsors</h1>
