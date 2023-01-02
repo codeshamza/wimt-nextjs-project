@@ -49,6 +49,7 @@ const Navbar = () => {
           setActiveLink(1);
           const Checkbox = document.getElementById("nav-bar-click");
           if(Checkbox)
+// @ts-ignore
            Checkbox.checked = false;
            }} className="navbar-items">
           <Link  style={{ fontWeight : "900"}} href="/">{markdownObject.navItem1}</Link>
@@ -57,6 +58,7 @@ const Navbar = () => {
           setActiveLink(2);
           const Checkbox = document.getElementById("nav-bar-click");
           if(Checkbox)
+// @ts-ignore
            Checkbox.checked = false;
            }}  className="navbar-items">
           <Link href="/team">{markdownObject.navItem2}</Link>
@@ -65,6 +67,7 @@ const Navbar = () => {
           setActiveLink(3);
           const Checkbox = document.getElementById("nav-bar-click");
           if(Checkbox)
+// @ts-ignore
            Checkbox.checked = false;
            }} >
           <Link href="/sponsor">
