@@ -164,9 +164,6 @@
     font-size: 14px !important;
   }
   .brains-behind-cards-peragraph{
-    font-weight: 100;
-  }
-  .brains-behind-cards-peragraph{
     font-size: 14px !important;
 
   }
@@ -235,9 +232,6 @@
 
 
 /* ======Changings===== */
-.homePage .brains-behind-cards-peragraph {
-  font-weight: 100 !important;
-}
 button{
   cursor: pointer;
 }
